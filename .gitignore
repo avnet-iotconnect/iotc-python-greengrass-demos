@@ -1,0 +1,11 @@
+# Development IDEs
+/.idea/
+/.vscode/
+
+# Build generated files
+/**/zip-build/
+/**/greengrass-build/
+/build
+/dist
+/*.gz
+/*.whl

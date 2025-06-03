@@ -1,0 +1,51 @@
+---
+# IMPORTANT:
+# This recipe cannot be used as-is to be uploaded to /IOTCONNECT. Use build.sh to generate
+# the recipe that has proper CPID and Environment
+RecipeFormatVersion: "2020-01-25"
+ComponentName: "{{COMPONENT_NAME}}"
+ComponentVersion: "{{COMPONENT_VERSION}}"
+ComponentDescription: "/IOTCONNECT Greengrass SDK Basic Demo."
+ComponentPublisher: "{{COMPONENT_AUTHOR}}"
+ComponentConfiguration:
+    accessControl:
+      aws.greengrass.ipc.mqttproxy:
+        io.iotconnect.example.IotConnectStAiVisionDemo:mqttproxy:1:
+          policyDescription: "IotConnectStAiVisionDemo direct access to /IOTCONNECT IoTCore"
+          operations:
+          - "aws.greengrass#SubscribeToIoTCore"
+          - "aws.greengrass#PublishToIoTCore"
+          resources:
+          - "*"
+      # not using PIC topics for now, but the user can choose to do this for future-proofing:
+      aws.greengrass.ipc.pubsub:
+        io.iotconnect.example.IotConnectStAiVisionDemo:pubsub:1:
+          policyDescription: "IotConnectStAiVisionDemo access to local IPC topics"
+          operations:
+            - "aws.greengrass#PublishToTopic"
+            - "aws.greengrass#SubscribeToTopic"
+          resources:
+            - "*"
+Manifests:
+  - Platform:
+      os: linux
+      runtime: "*"
+    Artifacts:
+      # Edit the line below with package s3 URL when uploading the component
+      # See instructions for registering Components in IoTConnect in the main README.md
+      - Uri: "s3://{{BUCKET_NAME}}/{{COMPONENT_NAME}}/{{VERSION}}/st-ai-vision.zip"
+        Unarchive: ZIP
+    Lifecycle:
+      # the wildcard is there to deal with the initial backend version
+      # that enforces a globally unique name (zip may be renamed to include a version)
+      install:
+        RequiresPrivilege: true
+        Timeout: 600
+        Script: |
+          bash -x {artifacts:decompressedPath}/st-ai-vision*/wrapper/system-setup.sh
+          su -l weston 'bash -x {artifacts:decompressedPath}/st-ai-vision*/wrapper/component-install.sh'
+
+      run:
+        RequiresPrivilege: true
+        Script: |
+          bash -x {artifacts:decompressedPath}/st-ai-vision*/wrapper/component-run.sh

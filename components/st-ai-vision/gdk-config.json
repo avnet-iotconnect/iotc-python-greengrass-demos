@@ -1,0 +1,16 @@
+{
+  "component": {
+    "io.iotconnect.example.IotConnectStAiVisionDemo": {
+      "author": "Nik Markovic",
+      "version": "0.0.1",
+      "build": {
+        "build_system": "zip"
+      },
+      "publish": {
+        "bucket": "iotc-st-ai-vision",
+        "region": "us-east-1"
+      }
+    }
+  },
+  "gdk_version": "1.0.0"
+}
