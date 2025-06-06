@@ -6,7 +6,11 @@ cd "$(dirname "$0")"/..
 
 sources_root="$(pwd)"
 
-source /usr/local/x-linux-ai/resources/config_board_cpu.sh
+if [[ -f /usr/local/x-linux-ai/resources/config_board_npu.sh ]]; then
+  source /usr/local/x-linux-ai/resources/config_board_npu.sh
+else
+  source /usr/local/x-linux-ai/resources/config_board_cpu.sh
+fi
 source ~/.venv-st-ai-vision/bin/activate
 export PYTHONPATH=$PYTHONPATH:/usr/local/x-linux-ai/object-detection
 #cd /usr/local/x-linux-ai/object-detection
