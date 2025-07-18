@@ -2,7 +2,7 @@
   "component": {
     "io.iotconnect.example.IotConnectSdkProteusBleDemo": {
       "author": "Zack Andraka",
-      "version": "2.2.0",
+      "version": "1.0.0",
       "build": {
         "build_system": "zip"
       },
