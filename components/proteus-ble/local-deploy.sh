@@ -17,7 +17,7 @@ sudo -E /greengrass/v2/bin/greengrass-cli \
   deployment create \
   --recipeDir greengrass-build/recipes \
   --artifactDir greengrass-build/artifacts \
-  --merge "io.iotconnect.example.IotConnectSdkProteusBleDemo=2.2.0"
+  --merge "io.iotconnect.example.IotConnectSdkProteusBleDemo=1.0.0"
 
 exit 0
 
@@ -42,5 +42,5 @@ sudo -E /greengrass/v2/bin/greengrass-cli \
 deployment create \
 --recipeDir ${PWD}/greengrass-build/recipes \
 --artifactDir ${PWD}/greengrass-build/artifacts \
---merge "io.iotconnect.example.IotConnectSdkProteusBleDemo=2.2.0" \
+--merge "io.iotconnect.example.IotConnectSdkProteusBleDemo=1.0.0" \
 --update-config "$IOTC_CONFIG"
