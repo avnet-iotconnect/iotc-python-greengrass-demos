@@ -1,3 +1,5 @@
+# PROTEUS BLE Demo
+
 This demo runs a python application inside of a Greengrass-Light component to receive various data points from the ST PROTEUS sensor pack to the STM32MP157F-DK2, and then send that data as telemetry to the IoTConnect cloud platform.
 
 The `bleproteus-template.json` template in this directory should be used to register the greengrass device in IOTCONNECT.
