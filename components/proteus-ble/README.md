@@ -1,4 +1,4 @@
-This demo uses a custom python application on top of the Greengrass client to receive various data points from the ST PROTEUS sensor pack to the STM32MP157F-DK2, and then send that data as telemetry to the IoTConnect cloud platform.
+This demo runs a python application inside of a Greengrass-Light component to receive various data points from the ST PROTEUS sensor pack to the STM32MP157F-DK2, and then send that data as telemetry to the IoTConnect cloud platform.
 
 ## Preparing PROTEUS Sensor Pack
 
@@ -13,4 +13,4 @@ After tapping on your PROTEUS in the device discovery screen, tap on the gear ic
 After the flash has completed, the PROTEUS will automatically reboot and you can close out of the app on your phone.
 
 >[!NOTE]
->Before connecting the PROTEUS to a new device, it is advised to manually reboot the sensor pack to ensure it is not still connected to another device. Using a small flathead screwdriver (the >kind you might use to repair a set of eyeglasses), a straightened paperclip, or some type of small blunt pin, press and hold the S2 power switch down for 3 seconds. If you have the device >sitting right-side-up on a desk with the Micro-USB connector facing to your left, the S2 button will be accessed through the only slot in the plastic casing that is facing you.
+>Before connecting the PROTEUS to a new device, it is advised to manually reboot the sensor pack to ensure it is not still connected to another device. Using a small blunt pin or screwdriver, >press and hold the S2 power switch down for 3 seconds. If you have the device sitting right-side-up on a desk with the Micro-USB connector facing to your left, the S2 button will be accessed >through the only slot in the plastic casing that is facing you.
