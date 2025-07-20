@@ -1,5 +1,42 @@
 This demo runs a python application inside of a Greengrass-Light component to receive various data points from the ST PROTEUS sensor pack to the STM32MP157F-DK2, and then send that data as telemetry to the IoTConnect cloud platform.
 
+The `bleproteus-template.json` template in this directory should be used to register the greengrass device in IOTCONNECT.
+
+Here are the data fields that are reported:
+
+* temperature_deg_C
+* battery_percentage
+* battery_voltage
+* battery_current
+* battery_status
+* accel_x_mGs
+* accel_y_mGs
+* accel_z_mGs
+* gyro_x_dps
+* gyro_y_dps
+* gyro_z_dps
+* rms_speed_status_x
+* rms_speed_status_y
+* rms_speed_status_z
+* rms_speed_x_mmps
+* rms_speed_y_mmps
+* rms_speed_z_mmps
+* freq_status_x
+* freq_status_y
+* freq_status_z
+* freq_x_hz
+* freq_y_hz
+* freq_z_hz
+* freq_max_amp_x_ms2
+* freq_max_amp_y_ms2
+* freq_max_amp_z_ms2
+* accel_peak_status_x
+* accel_peak_status_y
+* accel_peak_status_z
+* accel_peak_x_ms2
+* accel_peak_y_ms2
+* accel_peak_z_ms2
+
 ## Preparing PROTEUS Sensor Pack
 
 To prepare your ST PROTEUS pack for the demo, you will need to make sure it is loaded with the correct firmware file (`STSW-PROTEUS_1_1_1.bin` available in this directory). Since the firmware flashing will be done from a smartphone, you will need to send and save this file to your smartphone (email is probably the easiest way). 
