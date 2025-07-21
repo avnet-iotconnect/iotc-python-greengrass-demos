@@ -152,23 +152,44 @@ async def proteus_setup():
 
 
 def proteus_loop():
-    loop = asyncio.new_event_loop()
-    asyncio.set_event_loop(loop)
-    loop.run_until_complete(proteus_setup())
-    loop.close()
+    try:
+        loop = asyncio.new_event_loop()
+        asyncio.set_event_loop(loop)
+        loop.run_until_complete(proteus_setup())
+    except Exception as e:
+        print(f"[proteus_loop] Exception: {e}")
+    finally:
+        asyncio.get_event_loop().close()
 
 
+def start_proteus_thread():
+    global proteus_thread
+    proteus_thread = threading.Thread(target=proteus_loop, daemon=True)
+    proteus_thread.start()
+
+
+# ----------- MAIN ------------
 proteus_thread = None
+start_proteus_thread()
 
 try:
     c = Client()
-    proteus_thread = threading.Thread(target=proteus_loop)
-    proteus_thread.start()
+    last_check_time = time.time()
 
     while True:
+        # Send telemetry
         with telemetry_lock:
             current_telemetry = telemetry.copy()
         c.send_telemetry(current_telemetry)
+
+        # Every 60 seconds, check if thread is alive
+        now = time.time()
+        if now - last_check_time >= 60:
+            last_check_time = now
+            if not proteus_thread.is_alive():
+                print("[main] Proteus thread not running. Restarting...")
+                start_proteus_thread()
+
         time.sleep(3)
 
 except Exception as e:
