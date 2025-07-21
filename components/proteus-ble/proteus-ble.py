@@ -11,7 +11,8 @@ import pexpect
 from bleak import BleakClient, BleakScanner
 from bleak.backends.characteristic import BleakGATTCharacteristic
 
-from avnet.iotconnect.sdk.greengrass import Client
+from avnet.iotconnect.sdk.greengrass import Client, C2dCommand, Callbacks
+from avnet.iotconnect.sdk.sdklib.mqtt import C2dAck
 
 telemetry = {
     'temperature_deg_C': 0,
@@ -56,6 +57,26 @@ battery_characteristic = '00020000-0001-11e1-ac36-0002a5d5c51b'
 rms_speed_characteristic = '00000007-0002-11e1-ac36-0002a5d5c51b'
 peak_acceleration_characteristic = '00000008-0002-11e1-ac36-0002a5d5c51b'
 freq_domain_characteristic = '00000009-0002-11e1-ac36-0002a5d5c51b'
+
+
+def on_command(msg: C2dCommand):
+    print("Received command", msg.command_name, msg.command_args, msg.ack_id)
+    if msg.command_name == "set-user-led":
+        if len(msg.command_args) == 3:
+            # pretend that we actually RGB values
+            status_message = "Setting User LED to R:%d G:%d B:%d" % (int(msg.command_args[0]), int(msg.command_args[1]), int(msg.command_args[2]))
+            c.send_command_ack(msg, C2dAck.CMD_SUCCESS_WITH_ACK, status_message)
+            print(status_message)
+        else:
+            c.send_command_ack(msg, C2dAck.CMD_FAILED, "Expected 3 arguments")
+            print("Expected three command arguments, but got", len(msg.command_args))
+    else:
+        print("Command %s not implemented!" % msg.command_name)
+        # You can send a failure ack for unrecognised commands, but other components may be servicing those commands,
+        # so we should not do this for Greengrass unless we know that we will be the only /IOTCONNECT component running
+        #
+        # if msg.ack_id is not None:  # it could be a command without "Acknowledgement Required" flag in the device template
+        #    c.send_command_ack(msg, C2dAck.CMD_FAILED, "Not Implemented")
 
 
 def setup_bluetooth():
@@ -173,7 +194,11 @@ proteus_thread = None
 start_proteus_thread()
 
 try:
-    c = Client()
+    c = Client(
+        callbacks=Callbacks(
+            command_cb=on_command
+        )
+    )
     last_check_time = time.time()
 
     while True:
