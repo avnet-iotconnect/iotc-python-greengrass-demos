@@ -17,8 +17,6 @@ page and follow the steps to ensure that:
 * Your Firmware is created.
 * The demo component from this repo is deployed to your device.
 
-While we expect to expand this repository with additional advanced examples, only two examples are available in this repository currently: the STM32 MP1/MP2 AI Vision Demo and the STM32MP1 PROTEUS BLE Demo.
-
 # AI Vision Demo
 
 This demo integrates with the code provided by ST and can detect objects by using the camera   
@@ -27,4 +25,12 @@ connected to the device. The list of trained objects is provided in
 
 # PROTEUS BLE Demo
 
-This demo reads and decodes BLE data transferred by the STEVAL-PROTEUS1 Sensor Pack before packaging up the data as telemetry and sending it to IOTCONNECT. The data includes fields regarding the battery health of the PROTEUS as well as acceleration, gyroscope, temperature, and frequency readings.
+This demo reads and decodes BLE data transferred by the STEVAL-PROTEUS1 Sensor Pack before packaging up the data as 
+telemetry and sending it to IOTCONNECT. The data includes fields regarding the battery health of the PROTEUS as well 
+as acceleration, gyroscope, temperature, and frequency readings.
+
+# SensorTileBox Pro BLE Demo
+
+This demo reads and decodes BLE data transferred by the ST SensorTileBox Pro Sensor Pack before packaging up the data 
+as telemetry and sending it to IOTCONNECT. The data includes fields regarding the battery health of the SensorTileBoxPro 
+as well as acceleration, gyroscope, temperature, magnetic field, and pressure readings.

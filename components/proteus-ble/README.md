@@ -53,3 +53,4 @@ After the flash has completed, the PROTEUS will automatically reboot and you can
 
 >[!NOTE]
 >Before connecting the PROTEUS to a new device, it is advised to manually reboot the sensor pack to ensure it is not still connected to another device. Using a small blunt pin or screwdriver, press and hold the S2 power switch down for 3 seconds. If you have the device sitting right-side-up on a desk with the Micro-USB connector facing to your left, the S2 button will be accessed through the only slot in the plastic casing that is facing you.
+
