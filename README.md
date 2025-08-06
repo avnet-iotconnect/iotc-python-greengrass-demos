@@ -28,3 +28,7 @@ connected to the device. The list of trained objects is provided in
 # PROTEUS BLE Demo
 
 This demo reads and decodes BLE data transferred by the STEVAL-PROTEUS1 Sensor Pack before packaging up the data as telemetry and sending it to IOTCONNECT. The data includes fields regarding the battery health of the PROTEUS as well as acceleration, gyroscope, temperature, and frequency readings.
+
+# SensorTileBox Pro BLE Demo
+
+This demo reads and decodes BLE data transferred by the ST SensorTileBox Pro Sensor Pack before packaging up the data as telemetry and sending it to IOTCONNECT. The data includes fields regarding the battery health of the SensorTileBoxPro as well as acceleration, gyroscope, temperature, magnetic field, and pressure readings.
