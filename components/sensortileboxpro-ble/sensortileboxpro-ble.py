@@ -9,6 +9,8 @@ import asyncio
 from bleak import BleakClient, BleakScanner
 from bleak.backends.characteristic import BleakGATTCharacteristic
 import pexpect
+from typing import Optional
+
 
 
 from avnet.iotconnect.sdk.greengrass import Client, C2dCommand, Callbacks
@@ -137,7 +139,7 @@ def start_sensortileboxpro_thread():
 
 
 # ----------- MAIN ------------
-sensortileboxpro_thread = None
+sensortileboxpro_thread: Optional[threading.Thread] = None
 start_sensortileboxpro_thread()
 
 try:
