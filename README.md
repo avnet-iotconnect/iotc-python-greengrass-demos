@@ -17,9 +17,6 @@ page and follow the steps to ensure that:
 * Your Firmware is created.
 * The demo component from this repo is deployed to your device.
 
-While we expect to expand this repository with additional advanced examples, only two examples are available in this 
-repository currently: the STM32 MP1/MP2 AI Vision Demo and the STM32MP1 PROTEUS BLE Demo.
-
 # AI Vision Demo
 
 This demo integrates with the code provided by ST and can detect objects by using the camera   
