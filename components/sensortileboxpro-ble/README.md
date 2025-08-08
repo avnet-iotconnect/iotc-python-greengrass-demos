@@ -1,7 +1,8 @@
 # SensorTile Box Pro BLE Demo
 
-This demo runs a python application inside of a Greengrass-Light component to receive various data points from the ST 
-SensorTileBox Pro sensor pack and then send that data as telemetry to the IoTConnect cloud platform.
+This demo runs a python application inside a Greengrass-Light component on a STM32MP157F-DK2, STM32MP135F-DK, or 
+STM32MP257F-DK to receive various data points from the ST SensorTileBox Pro sensor pack and then send that data as 
+telemetry to the IoTConnect cloud platform.
 
 The `sensortile-template.json` template in this directory should be used to register the greengrass device in IOTCONNECT.
 
