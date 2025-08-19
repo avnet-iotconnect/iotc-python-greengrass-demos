@@ -41,6 +41,8 @@ Here are the data fields that are reported:
 * accel_peak_y_ms2
 * accel_peak_z_ms2
 
+Download the pre-built component [here](https://downloads.iotconnect.io/greengrass/components/iotc-gg-component-proteus-ble-1.0.0.zip)
+
 ## Preparing PROTEUS Sensor Pack
 
 To prepare your ST PROTEUS pack for the demo, you will need to make sure it is loaded with the correct firmware file 

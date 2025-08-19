@@ -24,6 +24,8 @@ Here are the data fields that are reported:
 * magnet_z_mGa
 * pressure_mBar
 
+Download the pre-built component [here](https://downloads.iotconnect.io/greengrass/components/iotc-gg-component-sensortileboxpro-ble-1.0.0.zip)
+
 ## Preparing SensorTileBox Pro Sensor Pack
 
 Begin by powering your SensorTileBox Pro Sensor pack with 5VDC using a USB-C cable, and turning the power switch to the 

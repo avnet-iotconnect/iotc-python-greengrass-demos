@@ -10,3 +10,5 @@ is connected to the USB A port on the device and component is deployed with IoTC
 has an HDMI or an LVDS Display connected and can run Weston Graphical User Interface, the screen will show the camera
 view, highlight recognizable object on the screen when they are detected and report the recognized object class and confidence 
 to /IOTCONNECT.
+
+Download the pre-built component [here](https://downloads.iotconnect.io/greengrass/components/iotc-gg-component-st-ai-vison-1.0.0.zip)
