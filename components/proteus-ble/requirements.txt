@@ -1,3 +1,0 @@
-iotconnect-greengrass-sdk<2.0.0
-bleak
-pexpect
