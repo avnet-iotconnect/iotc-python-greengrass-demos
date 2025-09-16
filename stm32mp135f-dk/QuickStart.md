@@ -159,7 +159,7 @@ To deploy the pre-built component, we'll use /IOTCONNECT to create a deployment 
 2. Click **Save**
 
 ### Create Package
-1. Return to the **Package** tab and then, at the top-right, click **Package**
+1. Verify the component is now list and at the top-right, click **Package**
 <img width="390" height="167" alt="create_package" src="https://github.com/user-attachments/assets/ac41c5ae-0d45-444b-8357-72d1c41f01e6" />
 
 2. Enter a *Name* such as `MyDHMdemo`
