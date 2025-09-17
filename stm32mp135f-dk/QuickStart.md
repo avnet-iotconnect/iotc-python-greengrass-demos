@@ -1,5 +1,5 @@
 # STM32MP135F-DK AWS IoT Greengrass nucleus lite QuickStart
-<img src="./media/stm32mp135-product-image.png" width="300" />  
+<img src="./media/STM32MP135x-DK_w_gg.png" width="300" />  
 
 1. [Introduction](#1-introduction)
 2. [Requirements](#2-requirements)
