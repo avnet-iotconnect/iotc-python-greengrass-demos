@@ -69,7 +69,7 @@ The free subscription may be obtained directly from [iotconnect.io](https://iotc
 > Be sure to check any SPAM folder for the temporary password after registering.
 
 ## 5. /IOTCONNECT: Import the Device Template
-1. Download the pre-made Device Template: [all-apps-device-template.json](../examples/common/files/all-apps-device-template.json)
+1. Download the pre-made Device Template: [all-apps-device-template.json](https://github.com/avnet-iotconnect/iotc-python-greengrass-sdk/blob/main/examples/common/files/all-apps-device-template.json)
 2. Using the Sidebar menu in /IOTCONNECT, Navigate to *Device -> Greengrass Device -> Template (bottom menu)*.
 <img width="1017" alt="click_templates" src="https://github.com/user-attachments/assets/e20ee569-38a1-4da6-bce1-08c66169774a" />
 
