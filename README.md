@@ -27,8 +27,7 @@ as well as the [/IOTCONNECT Python Greengrass Components repo](https://github.co
 # Conncecting with the Python Lite SDK
 
 If you are instead interested in using Avnet's /IOTCONNECT Python Lite SDK to manage these devices (and several others),
-check out the [/IOTCONNECT Python Lite Demos repo](https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/blob/main/README.md) 
-which is supported by the [/IOTCONNECT Python Lite SDK](https://github.com/avnet-iotconnect/iotc-python-lite-sdk).
+check out the [/IOTCONNECT Python Lite Demos repo](https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/blob/main/README.md).
 
 ## Licensing
 
