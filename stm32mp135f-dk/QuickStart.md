@@ -88,7 +88,7 @@ The free subscription may be obtained directly from [iotconnect.io](https://iotc
 5. Select `ggsdkdemo` for the **Template**  
 6. Select `Nucleus Lite` for the **Device Type**
 7. Click **Save & View**
-<img width="1625" height="533" alt="enter_device_info" src="https://github.com/user-attachments/assets/da45e315-ff83-4f67-903a-38ff5c8dd5a6" />
+<img width="1625" height="534" alt="Screenshot 2025-08-27 134940" src="https://github.com/user-attachments/assets/2d0e2dbd-f867-4933-84a5-337cce94c10f" />
 
 8. Download the "Connection Kit" by clicking the icon in the upper right of the device page.  Save this file as `connectionKit.zip`.  This contains information about the device which will be used to configure the board in a future step.
 <img width="380" height="180" alt="connection_kit" src="https://github.com/user-attachments/assets/ab693911-aebe-4916-b85d-9d734d067a46" />
@@ -175,7 +175,7 @@ To deploy the pre-built component, we'll use /IOTCONNECT to create a deployment 
 2. Add a *Name* and select each item in the drop-downs (there will only be one option for each)
 3. Ensure you tick the box under "Components" and pick the version `1.0.0`
 4. **Click** *Deploy*
-<img width="1457" height="440" alt="deploy_overview" src="https://github.com/user-attachments/assets/71122dc5-7315-4cfd-a9dc-e174a00edb0a" />
+<img width="1457" height="440" alt="deploy_overview" src="https://github.com/user-attachments/assets/db0da340-1305-49d0-ac7f-92b4bf8d69ed" />
 
 The package with the component is now being deployed to the device.
 
