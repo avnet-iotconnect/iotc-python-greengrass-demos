@@ -84,6 +84,8 @@ The free subscription may be obtained directly from [iotconnect.io](https://iotc
 <img width="471" height="211" alt="click_create_device" src="https://github.com/user-attachments/assets/e57d01b4-bb59-43c1-a926-cf862195b071" />
 
 3. Enter `STM32MP135F` for the **Unique ID** and **Device Name**  
+> [!IMPORTANT]
+> The Unique ID must be less than 14 characters.
 4. Select the **Entity** to put the device in (For new accounts, there is only one option)  
 5. Select `ggsdkdemo` for the **Template**  
 6. Select `Nucleus Lite` for the **Device Type**
