@@ -24,7 +24,7 @@ If you wish to deploy a component other than the one(s) provided in your board's
 example components in the [/IOTCONNECT Python Greengrass SDK repo](https://github.com/avnet-iotconnect/iotc-python-greengrass-sdk/tree/main) 
 as well as the [/IOTCONNECT Python Greengrass Components repo](https://github.com/avnet-iotconnect/iotc-python-greengrass-components/tree/main).
 
-# Conncecting with the Python Lite SDK
+# Connecting with the Python Lite SDK
 
 If you are instead interested in using Avnet's /IOTCONNECT Python Lite SDK to manage these devices (and several others),
 check out the [/IOTCONNECT Python Lite Demos repo](https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/blob/main/README.md).
