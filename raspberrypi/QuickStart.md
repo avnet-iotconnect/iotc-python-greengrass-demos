@@ -61,7 +61,7 @@ Login to the /IOTCONNECT platform: [console.iotconnect.io](console.iotconnect.io
 4. Select the **Entity** to put the device in (For new accounts, there is only one option)  
 5. Select `ggsdkdemo` for the **Template**  
 6. Select `Nucleus Lite` for the **Device Type**  
-<img width="698" height="515" alt="Create Device" src="https://github.com/avnet-iotconnect/iotc-python-greengrass-demos/blob/main/raspberrypi/media/create_device_rpi5.png" />
+<img width="698" height="515" alt="Create Device" src="./media/create_device_rpi5.png" />
 
 7. Click **Save & View**  
 8. Download the "Connection Kit" by clicking the icon in the upper right of the device page.  Save this file as `connectionKit.zip` .  This contains information about the device which will be used to configure the board in a future step.
@@ -161,7 +161,7 @@ To deploy the pre-built component, we'll use /IOTCONNECT to create a deployment 
 2. Add a *Name* and select each item in the drop-downs (there will only be one option for each)
 3. Ensure you tick the box under "Components" and pick the version `1.0.0`
 4. **Click** *Deploy*
-<img width="1457" height="440" alt="deploy_overview" src="./media/deployment_overview.png" />
+<img width="926" height="456" alt="deploy_overview" src="./media/deployment_overview.png" />
 
 The package with the component is now being deployed to the device.
 
