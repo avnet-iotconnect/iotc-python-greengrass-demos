@@ -25,7 +25,6 @@ This guide has been written and tested to work on a Windows 10/11 PC to reach th
 * Ethernet Cable (Recommended, Optional)
 
 ### Software
-* A serial terminal such as [TeraTerm](https://github.com/TeraTermProject/teraterm/releases) or [PuTTY](https://www.putty.org/)
 * Raspberry Pi Imager [Raspberry Pi Imager](https://www.raspberrypi.com/software/)
 
 ## 3. /IOTCONNECT: Cloud Account Setup
