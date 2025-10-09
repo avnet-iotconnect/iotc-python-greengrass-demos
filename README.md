@@ -11,6 +11,7 @@ completed this work for a subset of board as outlined in the following section.
 The following development boards are pre-enabled with /IOTCONNECT in this repository:
 
 * [ST STM32MP135F-DK Discovery Kit](stm32mp135f-dk) - ([Product Link](https://www.st.com/en/evaluation-tools/stm32mp135f-dk.html))
+* [Raspberry Pi](raspberrypi)
 
 # Getting Started
 
