@@ -1,30 +1,6 @@
 # RaspberryPi AWS IoT Greengrass nucleus lite QuickStart
 <img src="./media/raspberrypi_board.png" width="300" />  
 
-1. [Introduction](#1-introduction)
-2. [Requirements](#2-requirements)
-
-   * [Hardware](#hardware)
-   * [Software](#software)
-3. [Hardware Setup](#3-hardware-setup)
-4. [/IOTCONNECT: Cloud Account Setup](#4-iotconnect-cloud-account-setup)
-5. [/IOTCONNECT: Import the Device Template](#5-iotconnect-import-the-device-template)
-6. [/IOTCONNECT: Create the Greengrass Device](#6-iotconnect-create-the-greengrass-device)
-7. [Download and Write the Image](#7-download-and-write-the-image)
-8. [Configure the Device](#8-configure-the-device)
-
-   * [Obtain the IP Address](#obtain-the-ip-address)
-   * [Transfer the Device Information](#transfer-the-device-information)
-   * [Run the Setup Script](#run-the-setup-script)
-9. [Deploy the Greengrass Component](#9-deploy-the-greengrass-component)
-
-   * [Load the Recipe](#load-the-recipe)
-   * [Load the Artifact](#load-the-artifact)
-   * [Create Package](#create-package)
-   * [Deploy Package](#deploy-package)
-10. [Import a Dynamic Dashboard](#10-import-a-dynamic-dashboard)
-11. [Resources](#11-resources)
-
 ## 1. Introduction
 This guide will walk through the steps to create and demonstrate a Device Health Monitoring application solution on a Raspberry Pi 5.  The solution utilizes the AWS Greengrass nucleus lite. Avnet's /IOTCONNECT platform will also be used to streamline all actions that would otherwise be performed in the AWS Console. The main tasks that will be performed are as follows:  
 
@@ -86,7 +62,7 @@ Login to the /IOTCONNECT platform: [console.iotconnect.io](console.iotconnect.io
 4. Select the **Entity** to put the device in (For new accounts, there is only one option)  
 5. Select `ggsdkdemo` for the **Template**  
 6. Select `Nucleus Lite` for the **Device Type**  
-<img width="1625" height="534" alt="Create Device" src="./media/create_device_rpi5.png" />  
+<img width="1625" height="534" alt="Create Device" src="/media/create_device_rpi5.png" />  
 9. Click **Save & View**  
 8. Download the "Connection Kit" by clicking the icon in the upper right of the device page.  Save this file as `connectionKit.zip`.  This contains information about the device which will be used to configure the board in a future step.
 <img width="380" height="180" alt="connection_kit" src="https://github.com/user-attachments/assets/ab693911-aebe-4916-b85d-9d734d067a46" />
@@ -113,7 +89,7 @@ Make the following connections using the image below as reference:
 3. Input: Connect the USB Keyboard
 4. Power: Connect the **Power cable** to the **USB-C Port** on the board.
 See the reference image below for cable connections:  
-<img src="./media/stm32mp135F-dk_board_setup.png" width="600">
+<img src="/media/board_setup.png" width="600">
 
 ## 7. Configure the Device
 Configuration of the device is mostly automated by using a device setup script, but first the device information bundle needs to be transferred to the board.
