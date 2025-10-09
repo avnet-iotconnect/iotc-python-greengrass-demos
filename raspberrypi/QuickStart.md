@@ -62,9 +62,9 @@ Login to the /IOTCONNECT platform: [console.iotconnect.io](console.iotconnect.io
 4. Select the **Entity** to put the device in (For new accounts, there is only one option)  
 5. Select `ggsdkdemo` for the **Template**  
 6. Select `Nucleus Lite` for the **Device Type**  
-<img width="1625" height="534" alt="Create Device" src="/media/create_device_rpi5.png" />  
+<img width="698" height="515" alt="Create Device" src="https://github.com/avnet-iotconnect/iotc-python-greengrass-demos/blob/main/raspberrypi/media/create_device_rpi5.png" />  
 9. Click **Save & View**  
-8. Download the "Connection Kit" by clicking the icon in the upper right of the device page.  Save this file as `connectionKit.zip`.  This contains information about the device which will be used to configure the board in a future step.
+8. Download the "Connection Kit" by clicking the icon in the upper right of the device page.  Save this file as `connectionKit.zip` .  This contains information about the device which will be used to configure the board in a future step.
 <img width="380" height="180" alt="connection_kit" src="https://github.com/user-attachments/assets/ab693911-aebe-4916-b85d-9d734d067a46" />
 
 ## 6. Hardware Setup
