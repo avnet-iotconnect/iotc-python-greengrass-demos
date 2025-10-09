@@ -45,7 +45,7 @@ Login to the /IOTCONNECT platform: [console.iotconnect.io](console.iotconnect.io
 2. Using the Sidebar menu in /IOTCONNECT, Navigate to *Device -> Greengrass Device -> Template (bottom menu)*.
 <img width="1017" alt="click_templates" src="https://github.com/user-attachments/assets/e20ee569-38a1-4da6-bce1-08c66169774a" />
 
-4. Click on the **Create Template** button and then the **Import** button and browse to select the device template .json file.
+3. Click on the **Create Template** button and then the **Import** button and browse to select the device template .json file.
 <img width="326" height="227" alt="click_create_template" src="https://github.com/user-attachments/assets/6c6c3e4d-49fb-4cef-83ef-4a9a46f7adeb" />
 
 ## 5. /IOTCONNECT: Create the Greengrass Device
@@ -61,22 +61,23 @@ Login to the /IOTCONNECT platform: [console.iotconnect.io](console.iotconnect.io
 4. Select the **Entity** to put the device in (For new accounts, there is only one option)  
 5. Select `ggsdkdemo` for the **Template**  
 6. Select `Nucleus Lite` for the **Device Type**  
-<img width="698" height="515" alt="Create Device" src="https://github.com/avnet-iotconnect/iotc-python-greengrass-demos/blob/main/raspberrypi/media/create_device_rpi5.png" />  
-9. Click **Save & View**  
+<img width="698" height="515" alt="Create Device" src="https://github.com/avnet-iotconnect/iotc-python-greengrass-demos/blob/main/raspberrypi/media/create_device_rpi5.png" />
+
+7. Click **Save & View**  
 8. Download the "Connection Kit" by clicking the icon in the upper right of the device page.  Save this file as `connectionKit.zip` .  This contains information about the device which will be used to configure the board in a future step.
 <img width="380" height="180" alt="connection_kit" src="https://github.com/user-attachments/assets/ab693911-aebe-4916-b85d-9d734d067a46" />
 
 ## 6. Hardware Setup
 ### Flash the micro SD Card
-1. Insert the micro SD card into your computer or use an adapter.
-2. Open the Raspberry Pi Imager application
-3. Select the version of the target Raspberry Pi (5)
-4. Click Choose OS and select "Other general-purpose OS", "Ubuntu" then "Ubuntu Server 24.04.3 LTS"
+1. **Insert** the **micro SD card** into your computer or use an adapter.
+2. **Open** the **Raspberry Pi Imager** application
+3. **Select** the **version** of the target Raspberry Pi (5)
+4. Click **Choose OS** and select **"Other general-purpose OS"**, **"Ubuntu"** then **"Ubuntu Server 24.04.3 LTS"**
 5. Select the micro SD card for storage and click "Next"
-6. When prompted, select the option for "OS Customisation"
-7. Set a non-root username and password such as demo/demo
+6. When prompted, select the option for **"OS Customisation"**
+7. Set a non-root username eg `demo` and password eg `demo`
 8. Optionally, set your wireless LAN information.
-9. On the Services tab, Enable SSH and "Use password authentication"
+9. On the **Services** tab, **Enable SSH** and **"Use password authentication"**
 10. Accept the warning prompts and flash the image.
 
 **Once the Flashing is complete, insert the SD card into the Raspberry Pi and continue to the next step.**
@@ -87,8 +88,6 @@ Make the following connections using the image below as reference:
 2. Display: Using the micro-HDMI to HDMI cable, connect the RPi to a monitor.
 3. Input: Connect the USB Keyboard
 4. Power: Connect the **Power cable** to the **USB-C Port** on the board.
-See the reference image below for cable connections:  
-<img src="/media/board_setup.png" width="600">
 
 ## 7. Configure the Device
 Configuration of the device is mostly automated by using a device setup script, but first the device information bundle needs to be transferred to the board.
