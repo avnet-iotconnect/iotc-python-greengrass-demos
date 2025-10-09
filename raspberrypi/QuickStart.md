@@ -1,15 +1,15 @@
-# RaspberryPi AWS IoT Greengrass nucleus lite QuickStart
+# RaspberryPi AWS IoT greengrass nucleus lite QuickStart
 <img src="./media/raspberrypi_board.png" width="300" />  
 
 ## 1. Introduction
-This guide will walk through the steps to create and demonstrate a Device Health Monitoring application solution on a Raspberry Pi 5.  The solution utilizes the AWS Greengrass nucleus lite. Avnet's /IOTCONNECT platform will also be used to streamline all actions that would otherwise be performed in the AWS Console. The main tasks that will be performed are as follows:  
+This guide will walk through the steps to create and demonstrate a Device Health Monitoring application solution on a Raspberry Pi 5.  The solution utilizes the AWS greengrass nucleus lite. Avnet's /IOTCONNECT platform will also be used to streamline all actions that would otherwise be performed in the AWS Console. The main tasks that will be performed are as follows:  
 
 1. Create an /IOTCONNECT account
 2. Import an example **Device Template** in /IOTCONNECT
-3. Create a **Greengrass Device** in /IOTCONNECT
+3. Create a **greengrass Device** in /IOTCONNECT
 4. Setup **nucleus lite** on the target device
-5. Download and Register a pre-built **Greengrass Component** in /IOTCONNECT
-6. Create a **Deployment** package that defines the **Greengrass Components** deployed to the nucleus
+5. Download and Register a pre-built **greengrass Component** in /IOTCONNECT
+6. Create a **Deployment** package that defines the **greengrass Components** deployed to the nucleus
 7. Deploy the **Component** to the target device
 8. View live data and interact with the target device using **Dynamic Dashboards** in /IOTCONNECT
 
@@ -48,7 +48,7 @@ Login to the /IOTCONNECT platform: [console.iotconnect.io](https://console.iotco
 3. Click on the **Create Template** button and then the **Import** button and browse to select the device template .json file.
 <img width="326" height="227" alt="click_create_template" src="https://github.com/user-attachments/assets/6c6c3e4d-49fb-4cef-83ef-4a9a46f7adeb" />
 
-## 5. /IOTCONNECT: Create the Greengrass Device
+## 5. /IOTCONNECT: Create the greengrass Device
 1. At the bottom of the /IOTCONNECT GUI, click the **Devices**
 <img width="1011" height="73" alt="click_devices" src="https://github.com/user-attachments/assets/fcea8f0c-f412-4ad2-a0c1-c172ca30ef1d" />
 
