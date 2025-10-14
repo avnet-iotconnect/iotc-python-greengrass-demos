@@ -10,10 +10,12 @@ completed this work for a subset of board as outlined in the following section.
 
 The following development boards are pre-enabled with /IOTCONNECT in this repository:
 
+* [NXP FRDM i.MX 93](nxp-frdm-imx-93) - ([Product Link](https://www.avnet.com/shop/us/products/nxp/frdm-imx93-3074457345660216004/))
 * [Raspberry Pi](raspberrypi)
 * [ST STM32MP135F-DK Discovery Kit](stm32mp135f-dk) - ([Product Link](https://www.st.com/en/evaluation-tools/stm32mp135f-dk.html))
 * [ST STM32MP157F-DK2 Discovery Kit](stm32mp157f-dk2) - ([Product Link](https://www.newark.com/stmicroelectronics/stm32mp157f-dk2/discovery-kit-arm-cortex-a7-cortex/dp/14AJ2731))
 * [ST STM32MP257F-DK Discovery Kit](stm32mp257f-dk) - ([Product Link](https://www.avnet.com/americas/product/stmicroelectronics/stm32mp257f-dk/EVOLVE-115914011/))
+* [ST STM32MP257F-EV1 Discovery Kit](stm32mp257f-ev1) - ([Product Link](https://www.avnet.com/americas/product/stmicroelectronics/stm32mp257f-ev1/EVOLVE-115913010?srsltid=AfmBOooi8P39Xi7OPSW1CMYH3uWdvLvtFk_jceqzKMmL64x2kRm2Roxa&srsltid=AfmBOooi8P39Xi7OPSW1CMYH3uWdvLvtFk_jceqzKMmL64x2kRm2Roxa))
 
 # Getting Started
 
