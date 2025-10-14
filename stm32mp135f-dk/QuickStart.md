@@ -83,9 +83,9 @@ The free subscription may be obtained directly from [iotconnect.io](https://iotc
 2. At the top-right, click **Create Device**
 <img width="471" height="211" alt="click_create_device" src="https://github.com/user-attachments/assets/e57d01b4-bb59-43c1-a926-cf862195b071" />
 
-3. Enter `STM32MP135F` for the **Unique ID** and **Device Name**  
+3. Enter a custom **Unique ID** and **Device Name** such as `STM32MP135F` (Unique ID and Device Name must match)
 > [!IMPORTANT]
-> The Unique ID must be less than 14 characters.
+> The Unique ID must be less than 14 characters, and be alphanumeric (non-endcap hyphens allowed).
 4. Select the **Entity** to put the device in (For new accounts, there is only one option)  
 5. Select `ggsdkdemo` for the **Template**  
 6. Select `Nucleus Lite` for the **Device Type**
@@ -118,7 +118,7 @@ The steps required are as follows:
 
 ### Obtain the IP Address
 * Connect to the board using a serial terminal, such as TeraTerm, and use the command `ifconfig`
-* The IP Address will listed next to the interface `end0`
+* The IP Address will be listed next to the interface `end0`
 * Leave the serial terminal window open for a future step
 
 ### Transfer the Device Information
