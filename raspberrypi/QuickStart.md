@@ -84,7 +84,7 @@ Login to the /IOTCONNECT platform: [console.iotconnect.io](https://console.iotco
 **Once the Flashing is complete, insert the SD card into the Raspberry Pi and continue to the next step.**
 
 ### Make Connections
-Make the following connections using the image below as reference:
+Make the following connections:
 1. Connectivity: Connect an **Ethernet Cable** from your LAN (modem/router/switch) to the Ethernet connector.
 2. Display: Using the micro-HDMI to HDMI cable, connect the RPi to a monitor.
 3. Input: Connect the USB Keyboard
