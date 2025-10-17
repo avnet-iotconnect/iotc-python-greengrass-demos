@@ -168,7 +168,7 @@ The package with the component is now being deployed to the device.
 
 This process can take 5min or more, so wait until you see "Success" in the Deployment History.
 
-## 10. Import a Dynamic Dashboard
+## 9. Import a Dynamic Dashboard
 /IOTCONNECT Dynamic Dashboards are an easy way to visualize data and interact with edge devices.  
 * Download the *Device Health Monitoring* dashboard: [greengrass_nucleus_lite_dashboard.json](greengrass_nucleus_lite_dashboard.json)
 
@@ -181,7 +181,7 @@ This process can take 5min or more, so wait until you see "Success" in the Deplo
 You will now be in the dashboard edit mode. You can add/remove widgets or just click `Save` in the upper-right corner to exit the edit mode.
 <img width="=800" alt="dashboard_overview" src="https://github.com/user-attachments/assets/5141fb05-73c4-4166-9148-65820c0da7e6" />
 
-## 11. Resources
+## Resources
 * Try out the other available [greengrass lite components](https://github.com/avnet-iotconnect/iotc-python-greengrass-sdk/tree/main/examples)
 * Learn more and develop your own components: [iotc-python-greengrass-sdk](https://github.com/avnet-iotconnect/iotc-python-greengrass-sdk)
 * [/IOTCONNECT Overview](https://www.iotconnect.io/)
