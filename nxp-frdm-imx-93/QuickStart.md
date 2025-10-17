@@ -136,7 +136,7 @@ scp connectionKit.zip root@x.x.x.x:
 * Return to the TeraTerm window.
 * Copy/Paste the following command to download the setup script and execute it.
 ```commandline
-wget https://raw.githubusercontent.com/avnet-iotconnect/iotc-python-greengrass-sdk/refs/heads/main/installer/openstlinux/device-setup.sh -O device-setup.sh
+wget https://raw.githubusercontent.com/avnet-iotconnect/iotc-python-greengrass-sdk/refs/heads/main/installer/imx/device-setup.sh -O device-setup.sh
 ```
 
 * Once the script has completed, use the following command to configure the device information:
