@@ -22,6 +22,7 @@ This guide has been written and tested to work on a Windows 10/11 PC to reach th
 * USB Type-C Power Cable
 * USB Keyboard
 * micro-HDMI to HDMI Cable
+* Monitor OR [HDMI to USB Adapter](https://www.amazon.com/s?k=hdmi+to+usb+capture)
 * Ethernet Cable (Recommended, Optional)
 
 ### Software
