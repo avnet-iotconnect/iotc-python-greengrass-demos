@@ -139,10 +139,16 @@ To deploy the pre-built component, we'll use /IOTCONNECT to create a deployment 
 <img width="1015" height="84" alt="click_package" src="https://github.com/user-attachments/assets/da800a4d-f5cf-4cd6-9438-ccefb5056501" />
 <img width="570" height="211" alt="click_components" src="https://github.com/user-attachments/assets/1ea5ae9d-c9e7-4abd-815b-6e4e6572a0d1" />
 
-2. In the "Create Component" box, browse for the recipe file ("recipe.yaml") from the previously extracted component archive here:  `<your working directory>\iotc-gg-component-dhm-demo-1.0.0\dhm-demo\greengrass-build\recipes\recipe.yaml`
+2. In the "Create Component" box, browse for the recipe file ("recipe.yaml") from the previously extracted component archive here:
+```
+<your working directory>\iotc-gg-component-dhm-demo-1.0.0\dhm-demo\greengrass-build\recipes\recipe.yaml
+```
 
 ### Load the Artifact 
-1. Click the icon to the right of "dhm-demo.zip" and navigate to the dhm-demo.zip from the previously extracted archive here: `<your working directory>\iotc-gg-component-dhm-demo-1.0.0\dhm-demo\greengrass-build\artifacts\io.iotconnect.example.IotConnectSdkDhmDemo\1.0.0\dhm-demo.zip`
+1. Click the icon to the right of "dhm-demo.zip" and navigate to the dhm-demo.zip from the previously extracted archive here:
+```
+<your working directory>\iotc-gg-component-dhm-demo-1.0.0\dhm-demo\greengrass-build\artifacts\io.iotconnect.example.IotConnectSdkDhmDemo\1.0.0\dhm-demo.zip
+```
 2. Click **Save**
 
 ### Create Package
@@ -151,8 +157,7 @@ To deploy the pre-built component, we'll use /IOTCONNECT to create a deployment 
 
 2. Enter a *Name* such as `MyDHMdemo`
 3. Select the `ggsdkdemo` Template
-4. Select the **Custom Component** in the drop-down
-
+4. Select the only option in the **Custom Component** drop-down
 5. Click **Save**
 
 ### Deploy Package
@@ -172,13 +177,13 @@ This process can take 5min or more, so wait until you see "Success" in the Deplo
 /IOTCONNECT Dynamic Dashboards are an easy way to visualize data and interact with edge devices.  
 * Download the *Device Health Monitoring* dashboard: [greengrass-nucleus-lite-dashboard.json](../greengrass-nucleus-lite-dashboard.json)
 
-* Switch back to the /IOTCONNECT browser window and verify the device status is displaying as `Connected`
-* **Click** `Create Dashboard` from the top of the page
-* **Select** the `Import Dashboard` option and **Click** *Browse* to select the dashboard template previously downloaded.
-* **Select** the *Template* ("ggsdkdemo") and your *Device Name*
-* **Enter** a name (such as `My DHM Greengrass Dashboard`) and **Click** *Save* the finalize the import
+1. Switch back to the /IOTCONNECT browser window and verify the device status is displaying as `Connected`
+2. Click **Create Dashboard** from the top of the page
+3. Select the **Import Dashboard** option and click **Browse** to select the dashboard template previously downloaded.
+4. Select the **Template** `ggsdkdemo` and your **Device Name**
+5. Enter a name such as `My DHM Dashboard` and click **Save** the finalize the import
 
-You will now be in the dashboard edit mode. You can add/remove widgets or just click `Save` in the upper-right corner to exit the edit mode.
+You will now be in the dashboard edit mode. You can add/remove widgets or just click **Save** in the upper-right corner to exit the edit mode.
 <img width="=800" alt="dashboard_overview" src="https://github.com/user-attachments/assets/5141fb05-73c4-4166-9148-65820c0da7e6" />
 
 ## Resources
