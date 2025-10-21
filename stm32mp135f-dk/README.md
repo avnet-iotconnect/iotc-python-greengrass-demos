@@ -1,5 +1,5 @@
 > [!TIP]
-> To setup and connect this device using the /IOTCONNECT Python Lite SDK, refer to this [QuickStart Guide](https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/stm32mp135f-dk).
+> To setup and connect this device using the **/IOTCONNECT Python Lite SDK**, refer to this [QuickStart Guide](https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/stm32mp135f-dk).
 
 # STM32MP135F-DK AWS IoT Greengrass nucleus lite QuickStart
 <img src="./media/STM32MP135x-DK_w_gg.png" width="300" />  
