@@ -1,3 +1,6 @@
+> [!TIP]
+> To setup and connect this device using the **/IOTCONNECT Python Lite SDK**, refer to this [QuickStart Guide](https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/nxp-frdm-imx-93).
+
 # NXP FRDM i.MX 93 AWS IoT Greengrass nucleus lite QuickStart
 <img src="./media/imx93-product.png" width="300" />  
 
