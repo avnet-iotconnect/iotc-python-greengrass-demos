@@ -47,6 +47,7 @@ This guide has been written and tested to work on a Windows 10/11 PC to reach th
 * STM32MP135F-DK [Purchase](https://www.newark.com/stmicroelectronics/stm32mp135f-dk/discovery-kit-32bit-arm-cortex/dp/68AK9977) | [User Manual & Kit Contents](https://www.st.com/resource/en/user_manual/um2993-discovery-kit-with-1-ghz-stm32mp135fa-mpu-stmicroelectronics.pdf) | [All Resources](https://www.st.com/en/evaluation-tools/stm32mp135f-dk.html)
 * 1 USB Type-C Cable
 * 1 Micro-USB Cable
+* microSD Card
 * Ethernet Cable
 
 ### Software
