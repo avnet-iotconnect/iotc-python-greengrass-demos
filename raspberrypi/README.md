@@ -1,4 +1,4 @@
-# RaspberryPi AWS IoT greengrass nucleus lite QuickStart
+# Raspberry Pi AWS IoT greengrass nucleus lite QuickStart
 <img src="./media/raspberrypi_board.png" width="300" />  
 
 ## 1. Introduction
