@@ -1,5 +1,5 @@
 > [!TIP]
-> To set up and connect this device using the **AWS greengrass Lite SDK**, refer to this [QuickStart Guide](https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/raspberry-pi)
+> To set up and connect this device using the **/IOTCONNECT Python Lite SDK**, refer to this [QuickStart Guide](https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/raspberry-pi)
 
 # Raspberry Pi AWS IoT greengrass nucleus lite QuickStart
 <img src="./media/raspberrypi_board.png" width="300" />  
