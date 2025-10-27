@@ -2,7 +2,8 @@
 > To setup and connect this device using the **/IOTCONNECT Python Lite SDK**, refer to this [QuickStart Guide](https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/nxp-frdm-imx-93).
 
 # NXP FRDM i.MX 93 AWS IoT Greengrass nucleus lite QuickStart
-<img src="./media/imx93-product.png" width="300" />  
+[Purchase the FRDM i.MX 93 Board](https://export.farnell.com/nxp/frdm-imx93/frdm-development-board-for-i-mx/dp/4626785)  
+<img src="./media/imx93-product.png" width="300" />
 
 1. [Introduction](#1-introduction)
 2. [Requirements](#2-requirements)
@@ -213,7 +214,7 @@ exit the edit mode.
 * Explore connecting the NXP FRDM i.MX 93 through the Python Lite SDK [QuickStart](https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/nxp-frdm-imx-93)
 * Try out the other available [greengrass lite components](https://github.com/avnet-iotconnect/iotc-python-greengrass-sdk/tree/main/examples)
 * Learn more and develop your own components: [iotc-python-greengrass-sdk](https://github.com/avnet-iotconnect/iotc-python-greengrass-sdk)
-* [Purchase the NXP FRDM i.MX 93](https://www.avnet.com/shop/us/products/nxp/frdm-imx93-3074457345660216004/)
+* [Purchase the FRDM i.MX 93 Board](https://export.farnell.com/nxp/frdm-imx93/frdm-development-board-for-i-mx/dp/4626785)
 * [More /IOTCONNECT ST Guides](https://avnet-iotconnect.github.io/partners/st/)
 * [/IOTCONNECT Overview](https://www.iotconnect.io/)
 * [/IOTCONNECT Knowledgebase](https://help.iotconnect.io/)
