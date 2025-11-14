@@ -65,7 +65,7 @@ Make the following connections using the image below as reference:
 3. Install the included micro-SD card into the micro-SD slot labeled **#3** on the underside of the board (make sure it
    clicks into place).
 
-<img src="./media/board_setup.png" width="600">
+<img src="./media/board-setup.png" width="600">
 
 ## 4. /IOTCONNECT: Cloud Account Setup
 An /IOTCONNECT account with an AWS backend is required.  If you need to create an account, a free trial subscription is available.
