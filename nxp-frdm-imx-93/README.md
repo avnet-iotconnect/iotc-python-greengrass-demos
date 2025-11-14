@@ -113,7 +113,7 @@ This contains information about the device which will be used to configure the b
 <img width="380" height="180" alt="connection_kit" src="https://github.com/user-attachments/assets/ab693911-aebe-4916-b85d-9d734d067a46" />
 
 ## 7. Download and Write the Image
-Follow [the flashing guide for this board](hhttps://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/blob/main/nxp-frdm-imx-93/FLASHING.md) 
+Follow [the flashing guide for this board](https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/blob/main/nxp-frdm-imx-93/FLASHING.md) 
 to download and install a compatible Yocto image.
 
 ## 8. Configure the Device
