@@ -64,7 +64,7 @@ labeled **#2**.
 3. Debug: Connect the Micro-USB cable from your PC to the Micro-USB connector labeled **#3** on the reference image.
 See the reference image below for cable connections:  
 
-<img src="./media/mp157F_board_setup.png" width="600">
+<img src="./media/mp157f_board_setup.png" width="600">
 
 ## 4. /IOTCONNECT: Cloud Account Setup
 An /IOTCONNECT account with an AWS backend is required.  If you need to create an account, a free trial subscription is available.
@@ -78,7 +78,10 @@ The free subscription may be obtained directly from [iotconnect.io](https://iotc
 
 ## 5. /IOTCONNECT: Import the Device Template
 1. Download the pre-made Device Template: [all-apps-device-template.json](https://github.com/avnet-iotconnect/iotc-python-greengrass-sdk/blob/main/examples/common/files/all-apps-device-template.json)
-2. Using the Sidebar menu in /IOTCONNECT, navigate to *Device -> Greengrass Device -> Template (bottom menu)*
+   
+2. Log into your /IOTCONNECT account at [console.iotconnect.io](https://console.iotconnect.io/login)
+   
+3. Using the Sidebar menu in /IOTCONNECT, navigate to *Device -> Greengrass Device -> Template (bottom menu)*
 
 <img width="1017" alt="click_templates" src="https://github.com/user-attachments/assets/e20ee569-38a1-4da6-bce1-08c66169774a" />
 
