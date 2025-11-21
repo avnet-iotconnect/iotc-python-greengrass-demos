@@ -122,9 +122,23 @@ to download and install a compatible Yocto image.
 ## 8. Configure the Device
 Configuration of the device is mostly automated by using a device setup script, but first the device information bundle needs to be transferred to the board.
 The steps required are as follows:
-1. Obtain the IP address of the board
-2. Transfer the device information to the board
-3. Run the setup script
+
+1. Connect to the board serially
+2. Obtain the IP address of the board
+3. Transfer the device information to the board
+4. Run the setup script
+
+### Connect Serially
+* Open a serial terminal emulator program such as TeraTerm.
+* Ensure that your serial settings in your terminal emulator are set to:
+  - Baud Rate: 115200
+  - Data Bits: 8
+  - Stop Bits: 1
+  - Parity: None
+* Starting with the lowest COM port value for "USB Serial Device" in the Device Manager list, attempt to connect to your board via the terminal emulator
+>[!NOTE]
+>A successful connection may result in just a blank terminal box. If you see a blank terminal box, press the ENTER key to get a login prompt. An unsuccessful connection attempt will usually result in an error window popping up.
+* When prompted for a login, type `root` followed by the ENTER key.
 
 ### Obtain the IP Address
 * Connect to the board using a serial terminal, such as TeraTerm, and use the command `ifconfig`
