@@ -3,6 +3,7 @@
 
 # Raspberry Pi AWS IoT greengrass nucleus lite QuickStart
 [Purchase the Raspberry Pi](https://www.newark.com/raspberry-pi/rpi5-4gb-single/rpi-5-board-2-4ghz-4gb-arm-cortex/dp/81AK1346) 
+
 <img src="./media/raspberrypi_board.png" width="300" />  
 
 ## 1. Introduction
