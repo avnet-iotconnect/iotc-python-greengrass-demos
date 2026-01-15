@@ -2,6 +2,7 @@
 > To set up and connect this device using the **/IOTCONNECT Python Lite SDK**, refer to this [Guide](https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/raspberry-pi)
 
 # Raspberry Pi AWS IoT greengrass nucleus lite QuickStart
+[Purchase the Raspberry Pi](https://www.newark.com/raspberry-pi/rpi5-4gb-single/rpi-5-board-2-4ghz-4gb-arm-cortex/dp/81AK1346) 
 <img src="./media/raspberrypi_board.png" width="300" />  
 
 ## 1. Introduction
@@ -190,6 +191,7 @@ You will now be in the dashboard edit mode. You can add/remove widgets or just c
 <img width="=800" alt="dashboard_overview" src="https://github.com/user-attachments/assets/5141fb05-73c4-4166-9148-65820c0da7e6" />
 
 ## Resources
+* [Purchase the Raspberry Pi](https://www.newark.com/raspberry-pi/rpi5-4gb-single/rpi-5-board-2-4ghz-4gb-arm-cortex/dp/81AK1346)
 * Try out the other available [greengrass lite components](https://github.com/avnet-iotconnect/iotc-python-greengrass-sdk/tree/main/examples)
 * Learn more and develop your own components: [iotc-python-greengrass-sdk](https://github.com/avnet-iotconnect/iotc-python-greengrass-sdk)
 * [/IOTCONNECT Overview](https://www.iotconnect.io/)
