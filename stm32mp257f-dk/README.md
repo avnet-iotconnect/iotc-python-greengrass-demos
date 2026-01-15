@@ -1,7 +1,9 @@
 > [!TIP]
 > To setup and connect this device using the **/IOTCONNECT Python Lite SDK**, refer to this [QuickStart Guide](https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/stm32mp257f-dk).
 
-# STM32MP257-DK2 AWS IoT Greengrass nucleus lite QuickStart
+# STM32MP257-DK AWS IoT Greengrass nucleus lite QuickStart
+[Purchase the STM32MP257F-DK](https://www.newark.com/stmicroelectronics/stm32mp257f-dk/discovery-board-arm-cortex-a35/dp/21AM3759)
+
 <img src="./media/mp257-product.png" width="300" />  
 
 1. [Introduction](#1-introduction)
@@ -217,7 +219,7 @@ exit the edit mode.
 * Explore connecting the STM32MP257F-DK through the Python Lite SDK [QuickStart](https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/stm32mp257f-dk)
 * Try out the other available [greengrass lite components](https://github.com/avnet-iotconnect/iotc-python-greengrass-sdk/tree/main/examples)
 * Learn more and develop your own components: [iotc-python-greengrass-sdk](https://github.com/avnet-iotconnect/iotc-python-greengrass-sdk)
-* [Purchase the STM32MP257F-DK](https://www.avnet.com/americas/product/stmicroelectronics/stm32mp257f-dk/EVOLVE-115914011/)
+* [Purchase the STM32MP257F-DK](https://www.newark.com/stmicroelectronics/stm32mp257f-dk/discovery-board-arm-cortex-a35/dp/21AM3759)
 * [More /IOTCONNECT ST Guides](https://avnet-iotconnect.github.io/partners/st/)
 * [/IOTCONNECT Overview](https://www.iotconnect.io/)
 * [/IOTCONNECT Knowledgebase](https://help.iotconnect.io/)
