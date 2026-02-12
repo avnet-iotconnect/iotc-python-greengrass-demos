@@ -6,7 +6,6 @@
 
 1. [Introduction](#1-introduction)
 2. [Requirements](#2-requirements)
-
    * [Hardware](#hardware)
    * [Software](#software)
 3. [Hardware Setup](#3-hardware-setup)
@@ -15,12 +14,10 @@
 6. [/IOTCONNECT: Create the Greengrass Device](#6-iotconnect-create-the-greengrass-device)
 7. [Download and Write the Image](#7-download-and-write-the-image)
 8. [Configure the Device](#8-configure-the-device)
-
    * [Obtain the IP Address](#obtain-the-ip-address)
    * [Transfer the Device Information](#transfer-the-device-information)
    * [Run the Setup Script](#run-the-setup-script)
 9. [Deploy the Greengrass Component](#9-deploy-the-greengrass-component)
-
    * [Load the Recipe](#load-the-recipe)
    * [Load the Artifact](#load-the-artifact)
    * [Create Package](#create-package)
