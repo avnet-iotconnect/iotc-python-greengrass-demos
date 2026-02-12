@@ -8,7 +8,6 @@
 
 1. [Introduction](#1-introduction)
 2. [Requirements](#2-requirements)
-
    * [Hardware](#hardware)
    * [Software](#software)
 3. [Hardware Setup](#3-hardware-setup)
@@ -17,12 +16,10 @@
 6. [/IOTCONNECT: Create the Greengrass Device](#6-iotconnect-create-the-greengrass-device)
 7. [Download and Write the Image](#7-download-and-write-the-image)
 8. [Configure the Device](#8-configure-the-device)
-
    * [Obtain the IP Address](#obtain-the-ip-address)
    * [Transfer the Device Information](#transfer-the-device-information)
    * [Run the Setup Script](#run-the-setup-script)
 9. [Deploy the Greengrass Component](#9-deploy-the-greengrass-component)
-
    * [Load the Recipe](#load-the-recipe)
    * [Load the Artifact](#load-the-artifact)
    * [Create Package](#create-package)
@@ -62,10 +59,8 @@ Make the following connections using the image below as reference:
 
 1. (OPTIONAL) Connect an Ethernet cable from your LAN (router/switch) to the Ethernet connector labeled **#1**. If you
    instead wish to use Wi-Fi, after booting your board refer to the [WIFI](https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/blob/main/stm32mp257f-dk/WIFI.md) guide.
-2. Connect the USB-C cable from your host machine to the "USB_PWR STLINK" USB-C connector on the board, labeled **#2
-   **.
-3. Install the included micro-SD card into the micro-SD slot labeled **#3** on the underside of the board (make sure it
-   clicks into place).
+2. Connect the USB-C cable from your host machine to the "USB_PWR STLINK" USB-C connector on the board, labeled **#2**.
+3. Install the included micro-SD card into the micro-SD slot labeled **#3** on the underside of the board (make sure it clicks into place).
 
 <img src="./media/board-setup.png" width="600">
 
@@ -81,26 +76,17 @@ The free subscription may be obtained directly from [iotconnect.io](https://iotc
 
 ## 5. /IOTCONNECT: Import the Device Template
 1. Download the pre-made Device Template: [all-apps-device-template.json](https://github.com/avnet-iotconnect/iotc-python-greengrass-sdk/blob/main/examples/common/files/all-apps-device-template.json)
-   
 2. Log into your /IOTCONNECT account at [console.iotconnect.io](https://console.iotconnect.io/login)
-   
 3. Using the Sidebar menu in /IOTCONNECT, navigate to *Device -> Greengrass Device -> Template (bottom menu)*
-
-<img width="1017" alt="click_templates" src="https://github.com/user-attachments/assets/e20ee569-38a1-4da6-bce1-08c66169774a" />
-
+<br><img width="1017" alt="click_templates" src="https://github.com/user-attachments/assets/e20ee569-38a1-4da6-bce1-08c66169774a" /><br>
 4. Click on the **Create Template** button and then the **Import** button and browse to select the device template .json file.
-
-<img width="326" height="227" alt="click_create_template" src="https://github.com/user-attachments/assets/6c6c3e4d-49fb-4cef-83ef-4a9a46f7adeb" />
+<br><img width="326" height="227" alt="click_create_template" src="https://github.com/user-attachments/assets/6c6c3e4d-49fb-4cef-83ef-4a9a46f7adeb" /><br>
 
 ## 6. /IOTCONNECT: Create the Greengrass Device
 1. At the bottom of the /IOTCONNECT GUI, click the **Devices**
-
-<img width="1011" height="73" alt="click_devices" src="https://github.com/user-attachments/assets/fcea8f0c-f412-4ad2-a0c1-c172ca30ef1d" />
-
+<br><img width="1011" height="73" alt="click_devices" src="https://github.com/user-attachments/assets/fcea8f0c-f412-4ad2-a0c1-c172ca30ef1d" /><br>
 2. At the top-right, click **Create Device**
-
-<img width="471" height="211" alt="click_create_device" src="https://github.com/user-attachments/assets/e57d01b4-bb59-43c1-a926-cf862195b071" />
-
+<br><img width="471" height="211" alt="click_create_device" src="https://github.com/user-attachments/assets/e57d01b4-bb59-43c1-a926-cf862195b071" /><br>
 3. Enter a custom **Unique ID** and **Device Name** such as `STM32MP257F` (Unique ID and Device Name must match)
 > [!IMPORTANT]
 > The Unique ID must be less than 14 characters, and be alphanumeric (non-endcap hyphens allowed).
@@ -108,13 +94,10 @@ The free subscription may be obtained directly from [iotconnect.io](https://iotc
 5. Select `ggsdkdemo` for the **Template**  
 6. Select `Nucleus Lite` for the **Device Type**
 7. Click **Save & View**
-
-<img src="./media/mp257f_create_device.png" width="600">
-
+<br><img src="./media/mp257f_create_device.png" width="600"><br>
 8. Download the "Connection Kit" by clicking the icon in the upper right of the device page.  Save this file as `connectionKit.zip`.  
 This contains information about the device which will be used to configure the board in a future step.
-
-<img width="380" height="180" alt="connection_kit" src="https://github.com/user-attachments/assets/ab693911-aebe-4916-b85d-9d734d067a46" />
+<br><img width="380" height="180" alt="connection_kit" src="https://github.com/user-attachments/assets/ab693911-aebe-4916-b85d-9d734d067a46" /><br>
 
 ## 7. Download and Write the Image
 The board should have a correct compatible Yocto image out of the box. However, if you need to re-flash for any reason, 
@@ -163,11 +146,8 @@ To deploy the pre-built component, we'll use /IOTCONNECT to create a deployment 
 
 ### Load the Recipe
 1. In the /IOTCONNECT platform, click **Package** at the bottom of the screen, then click **Components** at the top.
-
-<img width="1015" height="84" alt="click_package" src="https://github.com/user-attachments/assets/da800a4d-f5cf-4cd6-9438-ccefb5056501" />
-
-<img width="570" height="211" alt="click_components" src="https://github.com/user-attachments/assets/1ea5ae9d-c9e7-4abd-815b-6e4e6572a0d1" />
-
+<br><img width="1015" height="84" alt="click_package" src="https://github.com/user-attachments/assets/da800a4d-f5cf-4cd6-9438-ccefb5056501" /><br>
+<br><img width="570" height="211" alt="click_components" src="https://github.com/user-attachments/assets/1ea5ae9d-c9e7-4abd-815b-6e4e6572a0d1" /><br>
 2. In the "Create Component" box, browse for the recipe file ("recipe.yaml") from the previously extracted component archive here:  `<your working directory>\iotc-gg-component-dhm-demo-1.0.0\dhm-demo\greengrass-build\recipes\recipe.yaml`
 
 ### Load the Artifact 
@@ -176,34 +156,25 @@ To deploy the pre-built component, we'll use /IOTCONNECT to create a deployment 
 
 ### Create Package
 1. Verify the component is now list and at the top-right, click **Package**
-
-<img width="390" height="167" alt="create_package" src="https://github.com/user-attachments/assets/ac41c5ae-0d45-444b-8357-72d1c41f01e6" />
-
+<br><img width="390" height="167" alt="create_package" src="https://github.com/user-attachments/assets/ac41c5ae-0d45-444b-8357-72d1c41f01e6" /><br>
 2. Enter a *Name* such as `MyDHMdemo`
 3. Select the `ggsdkdemo` Template
 4. Select the **Custom Component** in the drop-down
-
 5. Click **Save**
 
 ### Deploy Package
 1. **Click** **Deploy**
-
-<img width="567" height="155" alt="click_deploy" src="https://github.com/user-attachments/assets/1b321aa8-9351-4b3d-b841-dfc12c91233f" />
-
+<br><img width="567" height="155" alt="click_deploy" src="https://github.com/user-attachments/assets/1b321aa8-9351-4b3d-b841-dfc12c91233f" /><br>
 2. Add a *Name* and select each item in the drop-downs (there will only be one option for each)
 3. Ensure you tick the box under "Components" and pick the version `1.0.0`
 4. **Click** *Deploy*
-
-<img src="./media/mp257f_deploy.png" width="600">
-
+<br><img src="./media/mp257f_deploy.png" width="600"><br>
 The package with the component is now being deployed to the device.
-
 This process can take 5min or more, so wait until you see "Success" in the Deployment History.
 
 ## 10. Import a Dynamic Dashboard
 /IOTCONNECT Dynamic Dashboards are an easy way to visualize data and interact with edge devices.  
 * Download the *Device Health Monitoring* dashboard: [greengrass-nucleus-lite-dashboard.json](../greengrass-nucleus-lite-dashboard.json)
-
 * Switch back to the /IOTCONNECT browser window and verify the device status is displaying as `Connected`
 * **Click** `Create Dashboard` from the top of the page
 * **Select** the `Import Dashboard` option and **Click** *Browse* to select the dashboard template previously downloaded.
