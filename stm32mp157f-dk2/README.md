@@ -77,25 +77,17 @@ The free subscription may be obtained directly from [iotconnect.io](https://iotc
 
 ## 5. /IOTCONNECT: Import the Device Template
 1. Download the pre-made Device Template: [all-apps-device-template.json](https://github.com/avnet-iotconnect/iotc-python-greengrass-sdk/blob/main/examples/common/files/all-apps-device-template.json)
-   
 2. Log into your /IOTCONNECT account at [console.iotconnect.io](https://console.iotconnect.io/login)
-   
 3. Using the Sidebar menu in /IOTCONNECT, navigate to *Device -> Greengrass Device -> Template (bottom menu)*
-
-<img width="1017" alt="click_templates" src="https://github.com/user-attachments/assets/e20ee569-38a1-4da6-bce1-08c66169774a" />
-
+<br><img width="1017" alt="click_templates" src="https://github.com/user-attachments/assets/e20ee569-38a1-4da6-bce1-08c66169774a" /><br>
 4. Click on the **Create Template** button and then the **Import** button and browse to select the device template .json file.
-
-<img width="326" height="227" alt="click_create_template" src="https://github.com/user-attachments/assets/6c6c3e4d-49fb-4cef-83ef-4a9a46f7adeb" />
+<br><img width="326" height="227" alt="click_create_template" src="https://github.com/user-attachments/assets/6c6c3e4d-49fb-4cef-83ef-4a9a46f7adeb" /><br>
 
 ## 6. /IOTCONNECT: Create the Greengrass Device
 1. At the bottom of the /IOTCONNECT GUI, click the **Devices**
-
-<img width="1011" height="73" alt="click_devices" src="https://github.com/user-attachments/assets/fcea8f0c-f412-4ad2-a0c1-c172ca30ef1d" />
-
+<br><img width="1011" height="73" alt="click_devices" src="https://github.com/user-attachments/assets/fcea8f0c-f412-4ad2-a0c1-c172ca30ef1d" /><br>
 2. At the top-right, click **Create Device**
-
-<img width="471" height="211" alt="click_create_device" src="https://github.com/user-attachments/assets/e57d01b4-bb59-43c1-a926-cf862195b071" />
+<br><img width="471" height="211" alt="click_create_device" src="https://github.com/user-attachments/assets/e57d01b4-bb59-43c1-a926-cf862195b071" /><br>
 
 3. Enter a custom **Unique ID** and **Device Name** such as `STM32MP157F` (Unique ID and Device Name must match)
 > [!IMPORTANT]
@@ -171,25 +163,19 @@ To deploy the pre-built component, we'll use /IOTCONNECT to create a deployment 
 
 ### Create Package
 1. Verify the component is now list and at the top-right, click **Package**
-
-<img width="390" height="167" alt="create_package" src="https://github.com/user-attachments/assets/ac41c5ae-0d45-444b-8357-72d1c41f01e6" />
-
+<br><img width="390" height="167" alt="create_package" src="https://github.com/user-attachments/assets/ac41c5ae-0d45-444b-8357-72d1c41f01e6" /><br>
 2. Enter a *Name* such as `MyDHMdemo`
 3. Select the `ggsdkdemo` Template
 4. Select the **Custom Component** in the drop-down
-
 5. Click **Save**
 
 ### Deploy Package
 1. **Click** **Deploy**
-
-<img width="567" height="155" alt="click_deploy" src="https://github.com/user-attachments/assets/1b321aa8-9351-4b3d-b841-dfc12c91233f" />
-
+<br><img width="567" height="155" alt="click_deploy" src="https://github.com/user-attachments/assets/1b321aa8-9351-4b3d-b841-dfc12c91233f" /><br>
 2. Add a *Name* and select each item in the drop-downs (there will only be one option for each)
 3. Ensure you tick the box under "Components" and pick the version `1.0.0`
 4. **Click** *Deploy*
-
-<img src="./media/mp157f_deploy.png" width="600">
+<br><img src="./media/mp157f_deploy.png" width="600"><br>
 
 The package with the component is now being deployed to the device.
 
