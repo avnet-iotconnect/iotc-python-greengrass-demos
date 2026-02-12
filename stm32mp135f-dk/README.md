@@ -71,16 +71,11 @@ The free subscription may be obtained directly from [iotconnect.io](https://iotc
 
 ## 5. /IOTCONNECT: Import the Device Template
 1. Download the pre-made Device Template: [all-apps-device-template.json](https://github.com/avnet-iotconnect/iotc-python-greengrass-sdk/blob/main/examples/common/files/all-apps-device-template.json)
-   
 2. Log into your /IOTCONNECT account at [console.iotconnect.io](https://console.iotconnect.io/login)
-   
 3. Using the Sidebar menu in /IOTCONNECT, navigate to *Device -> Greengrass Device -> Template (bottom menu)*
-
-<img width="1017" alt="click_templates" src="https://github.com/user-attachments/assets/e20ee569-38a1-4da6-bce1-08c66169774a" />
-
+<br><img width="1017" alt="click_templates" src="https://github.com/user-attachments/assets/e20ee569-38a1-4da6-bce1-08c66169774a" /><br>
 4. Click on the **Create Template** button and then the **Import** button and browse to select the device template .json file.
-
-<img width="326" height="227" alt="click_create_template" src="https://github.com/user-attachments/assets/6c6c3e4d-49fb-4cef-83ef-4a9a46f7adeb" />
+<br><img width="326" height="227" alt="click_create_template" src="https://github.com/user-attachments/assets/6c6c3e4d-49fb-4cef-83ef-4a9a46f7adeb" /><br>
 
 ## 6. /IOTCONNECT: Create the Greengrass Device
 1. At the bottom of the /IOTCONNECT GUI, click the **Devices**
@@ -168,12 +163,10 @@ To deploy the pre-built component, we'll use /IOTCONNECT to create a deployment 
 
 ### Create Package
 1. Verify the component is now list and at the top-right, click **Package**
-<img width="390" height="167" alt="create_package" src="https://github.com/user-attachments/assets/ac41c5ae-0d45-444b-8357-72d1c41f01e6" />
-
+<br><img width="390" height="167" alt="create_package" src="https://github.com/user-attachments/assets/ac41c5ae-0d45-444b-8357-72d1c41f01e6" /><br>
 2. Enter a *Name* such as `MyDHMdemo`
 3. Select the `ggsdkdemo` Template
 4. Select the **Custom Component** in the drop-down
-
 5. Click **Save**
 
 ### Deploy Package
@@ -192,7 +185,6 @@ This process can take 5min or more, so wait until you see "Success" in the Deplo
 ## 10. Import a Dynamic Dashboard
 /IOTCONNECT Dynamic Dashboards are an easy way to visualize data and interact with edge devices.  
 * Download the *Device Health Monitoring* dashboard: [greengrass-nucleus-lite-dashboard.json](../greengrass-nucleus-lite-dashboard.json)
-
 * Switch back to the /IOTCONNECT browser window and verify the device status is displaying as `Connected`
 * **Click** `Create Dashboard` from the top of the page
 * **Select** the `Import Dashboard` option and **Click** *Browse* to select the dashboard template previously downloaded.
