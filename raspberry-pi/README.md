@@ -78,7 +78,7 @@ Login to the /IOTCONNECT platform: [console.iotconnect.io](https://console.iotco
 1. **Insert** the **micro SD card** into your computer or use an adapter.
 2. **Open** the **Raspberry Pi Imager** application
 3. **Select** the **version** of the target Raspberry Pi (5)
-4. Click **Choose OS** and select **"Other general-purpose OS"**, **"Ubuntu"** then **"Ubuntu Server 24.04.3 LTS"**
+4. Click **Choose OS** and select **"Other general-purpose OS"**, **"Ubuntu"** then **"Ubuntu Server 24.04.X LTS"**
 5. Select the micro SD card for storage and click "Next"
 6. When prompted, select the option for **"OS Customisation"**
 7. Set a non-root username eg `demo` and password eg `demo`
