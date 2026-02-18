@@ -91,7 +91,7 @@ Login to the /IOTCONNECT platform: [console.iotconnect.io](https://console.iotco
 ### Make Connections
 Make the following connections:
 1. Connectivity: Connect an **Ethernet Cable** from your LAN (modem/router/switch) to the Ethernet connector.
-2. Display: Using the micro-HDMI to HDMI cable, connect the RPi to a monitor.
+2. Display: Connect the micro-HDMI to a display (or HDMI to USB adapter).
 3. Input: Connect the USB Keyboard
 4. Power: Connect the **Power cable** to the **USB-C Port** on the board.
 
