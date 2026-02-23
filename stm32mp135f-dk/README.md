@@ -162,7 +162,7 @@ To deploy the pre-built component, we'll use /IOTCONNECT to create a deployment 
 2. Click **Save**
 
 ### Create Package
-1. Verify the component is now list and at the top-right, click **Package**
+1. Verify the component is now listed and at the top-right, click **Package**
 <br><img width="390" height="167" alt="create_package" src="https://github.com/user-attachments/assets/ac41c5ae-0d45-444b-8357-72d1c41f01e6" /><br>
 2. Enter a *Name* such as `MyDHMdemo`
 3. Select the `ggsdkdemo` Template
@@ -189,10 +189,10 @@ This process can take 5min or more, so wait until you see "Success" in the Deplo
 * **Click** `Create Dashboard` from the top of the page
 * **Select** the `Import Dashboard` option and **Click** *Browse* to select the dashboard template previously downloaded.
 * **Select** the *Template* ("ggsdkdemo") and your *Device Name*
-* **Enter** a name (such as `My STM32MP135 Greengrass Dashboard`) and **Click** *Save* the finalize the import
+* **Enter** a name (such as `My STM32MP135 Greengrass Dashboard`) and **Click** *Save* to finalize the import
 
 You will now be in the dashboard edit mode. You can add/remove widgets or just click `Save` in the upper-right corner to exit the edit mode.
-<img width="=800" alt="dashboard_overview" src="https://github.com/user-attachments/assets/5141fb05-73c4-4166-9148-65820c0da7e6" />
+<img width="800" alt="dashboard_overview" src="https://github.com/user-attachments/assets/5141fb05-73c4-4166-9148-65820c0da7e6" />
 
 ## 11. Resources
 * Explore connecting the STM32MP135F-DK through the Python Lite SDK [QuickStart](https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/stm32mp135f-dk)

@@ -1,20 +1,43 @@
 > [!TIP]
 > To set up and connect this device using the **/IOTCONNECT Python Lite SDK**, refer to this [Guide](https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/raspberry-pi)
 
-# Raspberry Pi AWS IoT greengrass nucleus lite QuickStart
+# Raspberry Pi AWS IoT Greengrass nucleus lite QuickStart
 [Purchase the Raspberry Pi](https://www.newark.com/raspberry-pi/rpi5-4gb-single/rpi-5-board-2-4ghz-4gb-arm-cortex/dp/81AK1346) 
 
-<img src="./media/raspberrypi_board.png" width="300" />  
+<img src="./media/raspberrypi_board.png" width="300" />
+
+1. [Introduction](#1-introduction)
+2. [Requirements](#2-requirements)
+   * [Hardware](#hardware)
+   * [Software](#software)
+3. [/IOTCONNECT: Cloud Account Setup](#3-iotconnect-cloud-account-setup)
+4. [/IOTCONNECT: Import the Device Template](#4-iotconnect-import-the-device-template)
+5. [/IOTCONNECT: Create the Greengrass Device](#5-iotconnect-create-the-greengrass-device)
+6. [Hardware Setup](#6-hardware-setup)
+   * [Flash the micro SD Card](#flash-the-micro-sd-card)
+   * [Make Connections](#make-connections)
+7. [Configure the Device](#7-configure-the-device)
+   * [Obtain the IP Address](#obtain-the-ip-address)
+   * [Transfer the Device Information](#transfer-the-device-information)
+   * [Download the Setup Script](#download-the-setup-script)
+   * [Execute the Setup Script](#execute-the-setup-script)
+8. [Deploy the Greengrass Component](#8-deploy-the-greengrass-component)
+   * [Load the Recipe](#load-the-recipe)
+   * [Load the Artifact](#load-the-artifact)
+   * [Create Package](#create-package)
+   * [Deploy Package](#deploy-package)
+9. [Import a Dynamic Dashboard](#9-import-a-dynamic-dashboard)
+10. [Resources](#10-resources)
 
 ## 1. Introduction
-This guide will walk through the steps to create and demonstrate a Device Health Monitoring application solution on a Raspberry Pi 5.  The solution utilizes the AWS greengrass nucleus lite. Avnet's /IOTCONNECT platform will also be used to streamline all actions that would otherwise be performed in the AWS Console. The main tasks that will be performed are as follows:  
+This guide will walk through the steps to create and demonstrate a Device Health Monitoring application solution on a Raspberry Pi 5.  The solution utilizes the AWS Greengrass nucleus lite. Avnet's /IOTCONNECT platform will also be used to streamline all actions that would otherwise be performed in the AWS Console. The main tasks that will be performed are as follows:  
 
 1. Create an /IOTCONNECT account
 2. Import an example **Device Template** in /IOTCONNECT
-3. Create a **greengrass Device** in /IOTCONNECT
+3. Create a **Greengrass Device** in /IOTCONNECT
 4. Setup **nucleus lite** on the target device
-5. Download and Register a pre-built **greengrass Component** in /IOTCONNECT
-6. Create a **Deployment** package that defines the **greengrass Components** deployed to the nucleus
+5. Download and Register a pre-built **Greengrass Component** in /IOTCONNECT
+6. Create a **Deployment** package that defines the **Greengrass Components** deployed to the nucleus
 7. Deploy the **Component** to the target device
 8. View live data and interact with the target device using **Dynamic Dashboards** in /IOTCONNECT
 
@@ -54,7 +77,7 @@ Login to the /IOTCONNECT platform: [console.iotconnect.io](https://console.iotco
 3. Click on the **Create Template** button and then the **Import** button and browse to select the device template .json file.
 <img width="326" height="227" alt="click_create_template" src="https://github.com/user-attachments/assets/6c6c3e4d-49fb-4cef-83ef-4a9a46f7adeb" />
 
-## 5. /IOTCONNECT: Create the greengrass Device
+## 5. /IOTCONNECT: Create the Greengrass Device
 1. At the bottom of the /IOTCONNECT GUI, click the **Devices**
 <img width="1011" height="73" alt="click_devices" src="https://github.com/user-attachments/assets/fcea8f0c-f412-4ad2-a0c1-c172ca30ef1d" />
 
@@ -101,12 +124,12 @@ The steps required are as follows:
 1. Obtain the IP address of the board
 2. Transfer the device information to the board
 3. Download the Setup Script
-3. Execute the Setup script
+4. Execute the Setup Script
 
 ### Obtain the IP Address
 * Login to the Raspberry Pi using the credentials entered in Raspberry Pi Imager (eg `demo`, `demo`)
 * Type `ip a` to list the interfaces
-* The IP Address will listed next to the interface `eth0` for Ethernet or `wlan0` for Wireless
+* The IP Address will be listed next to the interface `eth0` for Ethernet or `wlan0` for Wireless
 
 ### Transfer the Device Information
 * Navigate to the directory where the Connection Kit ("connectionKit.zip") was saved.
@@ -157,7 +180,7 @@ To deploy the pre-built component, we'll use /IOTCONNECT to create a deployment 
 2. Click **Save**
 
 ### Create Package
-1. Verify the component is now list and at the top-right, click **Package**
+1. Verify the component is now listed and at the top-right, click **Package**
 <img width="390" height="167" alt="create_package" src="https://github.com/user-attachments/assets/ac41c5ae-0d45-444b-8357-72d1c41f01e6" />
 
 2. Enter a *Name* such as `MyDHMdemo`
@@ -186,12 +209,12 @@ This process can take 5min or more, so wait until you see "Success" in the Deplo
 2. Click **Create Dashboard** from the top of the page
 3. Select the **Import Dashboard** option and click **Browse** to select the dashboard template previously downloaded.
 4. Select the **Template** `ggsdkdemo` and your **Device Name**
-5. Enter a name such as `My DHM Dashboard` and click **Save** the finalize the import
+5. Enter a name such as `My DHM Dashboard` and click **Save** to finalize the import
 
 You will now be in the dashboard edit mode. You can add/remove widgets or just click **Save** in the upper-right corner to exit the edit mode.
-<img width="=800" alt="dashboard_overview" src="https://github.com/user-attachments/assets/5141fb05-73c4-4166-9148-65820c0da7e6" />
+<img width="800" alt="dashboard_overview" src="https://github.com/user-attachments/assets/5141fb05-73c4-4166-9148-65820c0da7e6" />
 
-## Resources
+## 10. Resources
 * [Purchase the Raspberry Pi](https://www.newark.com/raspberry-pi/rpi5-4gb-single/rpi-5-board-2-4ghz-4gb-arm-cortex/dp/81AK1346)
 * Try out the other available [greengrass lite components](https://github.com/avnet-iotconnect/iotc-python-greengrass-sdk/tree/main/examples)
 * Learn more and develop your own components: [iotc-python-greengrass-sdk](https://github.com/avnet-iotconnect/iotc-python-greengrass-sdk)

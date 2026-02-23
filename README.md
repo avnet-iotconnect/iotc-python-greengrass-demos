@@ -4,7 +4,7 @@ This repository contains various guides and demos that utilize
 the [/IOTCONNECT Python Greengrass SDK](https://github.com/avnet-iotconnect/iotc-python-greengrass-sdk/tree/main) to connect devices to the
 Avnet /IOTCONNECT platform and showcase telemetry reporting and cloud-to-device command functionality.
 The Python Greengrass SDK may be used to enable /IOTCONNECT on a wide variety of development boards/platforms. Avnet has
-completed this work for a subset of board as outlined in the following section.
+completed this work for a subset of boards as outlined in the following section.
 
 # Pre-Enabled Development Boards
 
@@ -14,6 +14,7 @@ The following development boards are pre-enabled with /IOTCONNECT in this reposi
 * [Raspberry Pi](raspberry-pi) - ([Product Link](https://www.newark.com/raspberry-pi/rpi5-4gb-single/rpi-5-board-2-4ghz-4gb-arm-cortex/dp/81AK1346))
 * [ST STM32MP135F-DK Discovery Kit](stm32mp135f-dk) - ([Product Link](https://www.newark.com/stmicroelectronics/stm32mp135f-dk/discovery-kit-32bit-arm-cortex/dp/68AK9977))
 * [ST STM32MP157F-DK2 Discovery Kit](stm32mp157f-dk2) - ([Product Link](https://www.newark.com/stmicroelectronics/stm32mp157f-dk2/discovery-kit-arm-cortex-a7-cortex/dp/14AJ2731))
+* [ST STM32MP215F-DK Discovery Kit](stm32mp215f-dk) - ([Product Link](https://www.avnet.com/americas/product/stmicroelectronics/stm32mp215f-dk/evolve-151041109/))
 * [ST STM32MP257F-DK Discovery Kit](stm32mp257f-dk) - ([Product Link](https://www.newark.com/stmicroelectronics/stm32mp257f-dk/discovery-board-arm-cortex-a35/dp/21AM3759))
 * [ST STM32MP257F-EV1 Discovery Kit](stm32mp257f-ev1) - ([Product Link](https://www.newark.com/stmicroelectronics/stm32mp257f-ev1/eval-brd-arm-cortex-a35-m33-m0/dp/13AM6530))
 

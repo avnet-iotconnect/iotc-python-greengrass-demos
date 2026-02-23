@@ -1,7 +1,7 @@
 > [!TIP]
 > To setup and connect this device using the **/IOTCONNECT Python Lite SDK**, refer to this [QuickStart Guide](https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/stm32mp257f-ev1).
 
-# STM32MP257-DK2 AWS IoT Greengrass nucleus lite QuickStart
+# STM32MP257F-EV1 AWS IoT Greengrass nucleus lite QuickStart
 [Purchase the STM32MP257F-EV1](https://www.newark.com/stmicroelectronics/stm32mp257f-ev1/eval-brd-arm-cortex-a35-m33-m0/dp/13AM6530)
 
 <img src="./media/mp257-product.png" width="300" />  
@@ -28,8 +28,8 @@
 11. [Resources](#11-resources)
 
 ## 1. Introduction
-This guide will walk through the steps to create and demonstrate a Device Health Monitoring application solution on the 
-STM32MP257F-DK.  The solution utilizes the AWS Greengrass nucleus lite. Avnet's /IOTCONNECT platform will also be used 
+This guide will walk through the steps to create and demonstrate a Device Health Monitoring application solution on the
+STM32MP257F-EV1.  The solution utilizes the AWS Greengrass nucleus lite. Avnet's /IOTCONNECT platform will also be used 
 to streamline all actions that would otherwise be performed in the AWS Console. The main tasks that will be performed are 
 as follows:  
 
@@ -58,7 +58,7 @@ This guide has been written and tested to work on a Windows 10/11 PC to reach th
 Make the following connections using the image below as reference:
 
 1. (OPTIONAL) Connect an Ethernet cable from your LAN (router/switch) to the Ethernet connector labeled **#1**. If you
-   instead wish to use Wi-Fi, after booting your board refer to the [WIFI](https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/blob/main/stm32mp257f-dk/WIFI.md) guide.
+   instead wish to use Wi-Fi, after booting your board refer to the [WIFI](https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/blob/main/stm32mp257f-ev1/WIFI.md) guide.
 2. Connect the USB-C cable from your host machine to the "USB_PWR STLINK" USB-C connector on the board, labeled **#2**.
 3. Install the included micro-SD card into the micro-SD slot labeled **#3** on the underside of the board (make sure it clicks into place).
 
@@ -154,7 +154,7 @@ To deploy the pre-built component, we'll use /IOTCONNECT to create a deployment 
 2. Click **Save**
 
 ### Create Package
-1. Verify the component is now list and at the top-right, click **Package**
+1. Verify the component is now listed and at the top-right, click **Package**
 <br><img width="390" height="167" alt="create_package" src="https://github.com/user-attachments/assets/ac41c5ae-0d45-444b-8357-72d1c41f01e6" /><br>
 2. Enter a *Name* such as `MyDHMdemo`
 3. Select the `ggsdkdemo` Template
@@ -180,7 +180,7 @@ This process can take 5min or more, so wait until you see "Success" in the Deplo
 * **Click** `Create Dashboard` from the top of the page
 * **Select** the `Import Dashboard` option and **Click** *Browse* to select the dashboard template previously downloaded.
 * **Select** the *Template* ("ggsdkdemo") and your *Device Name*
-* **Enter** a name (such as `My STM32MP257F Greengrass Dashboard`) and **Click** *Save* the finalize the import
+* **Enter** a name (such as `My STM32MP257F Greengrass Dashboard`) and **Click** *Save* to finalize the import
 
 You will now be in the dashboard edit mode. You can add/remove widgets or just click `Save` in the upper-right corner to 
 exit the edit mode.

@@ -1,7 +1,7 @@
 > [!TIP]
 > To setup and connect this device using the **/IOTCONNECT Python Lite SDK**, refer to this [QuickStart Guide](https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/stm32mp257f-dk).
 
-# STM32MP257-DK AWS IoT Greengrass nucleus lite QuickStart
+# STM32MP257F-DK AWS IoT Greengrass nucleus lite QuickStart
 [Purchase the STM32MP257F-DK](https://www.newark.com/stmicroelectronics/stm32mp257f-dk/discovery-board-arm-cortex-a35/dp/21AM3759)
 
 <img src="./media/mp257-product.png" width="300" />  
@@ -52,7 +52,6 @@ This guide has been written and tested to work on a Windows 10/11 PC to reach th
 
 ### Software
 * A serial terminal such as [TeraTerm](https://github.com/TeraTermProject/teraterm/releases) or [PuTTY](https://www.putty.org/)
-* Disk image writing software such as [BalenaEtcher](https://etcher.balena.io/)
 
 ## 3. Hardware Setup
 Make the following connections using the image below as reference:
@@ -155,7 +154,7 @@ To deploy the pre-built component, we'll use /IOTCONNECT to create a deployment 
 2. Click **Save**
 
 ### Create Package
-1. Verify the component is now list and at the top-right, click **Package**
+1. Verify the component is now listed and at the top-right, click **Package**
 <br><img width="390" height="167" alt="create_package" src="https://github.com/user-attachments/assets/ac41c5ae-0d45-444b-8357-72d1c41f01e6" /><br>
 2. Enter a *Name* such as `MyDHMdemo`
 3. Select the `ggsdkdemo` Template
@@ -179,7 +178,7 @@ This process can take 5min or more, so wait until you see "Success" in the Deplo
 * **Click** `Create Dashboard` from the top of the page
 * **Select** the `Import Dashboard` option and **Click** *Browse* to select the dashboard template previously downloaded.
 * **Select** the *Template* ("ggsdkdemo") and your *Device Name*
-* **Enter** a name (such as `My STM32MP257F Greengrass Dashboard`) and **Click** *Save* the finalize the import
+* **Enter** a name (such as `My STM32MP257F Greengrass Dashboard`) and **Click** *Save* to finalize the import
 
 You will now be in the dashboard edit mode. You can add/remove widgets or just click `Save` in the upper-right corner to 
 exit the edit mode.
