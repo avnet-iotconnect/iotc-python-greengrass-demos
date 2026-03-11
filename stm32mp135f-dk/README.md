@@ -194,6 +194,8 @@ This process can take 5min or more, so wait until you see "Success" in the Deplo
 You will now be in the dashboard edit mode. You can add/remove widgets or just click `Save` in the upper-right corner to exit the edit mode.
 <img width="800" alt="dashboard_overview" src="https://github.com/user-attachments/assets/5141fb05-73c4-4166-9148-65820c0da7e6" />
 
+You're now ready to try out the [Vision AI Component](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/tree/main/documentation/iotc-stm32mp1-ai-vision)
+
 ## 11. Resources
 * Explore connecting the STM32MP135F-DK through the Python Lite SDK [QuickStart](https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/stm32mp135f-dk)
 * Try out the other available [greengrass lite components](https://github.com/avnet-iotconnect/iotc-python-greengrass-sdk/tree/main/examples)
