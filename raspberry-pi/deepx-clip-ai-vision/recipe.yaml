@@ -1,0 +1,66 @@
+---
+# IMPORTANT:
+# This recipe cannot be used as-is to be uploaded to /IOTCONNECT. Use build.sh to generate
+# the recipe that has proper CPID and Environment
+RecipeFormatVersion: "2020-01-25"
+ComponentName: "{{COMPONENT_NAME}}"
+ComponentVersion: "{{COMPONENT_VERSION}}"
+ComponentDescription: "/IOTCONNECT DEEPX DX-M1 CLIP Vision Demo (Ask the Camera)"
+ComponentPublisher: "{{COMPONENT_AUTHOR}}"
+ComponentConfiguration:
+  DefaultConfiguration:
+    # IOTC_CPID and IOTC_ENV configuration values are optional, but recommended.
+    IOTC_CPID: null
+    IOTC_ENV: null
+    # DUID should generally NOT be provided, but can be used for troubleshooting.
+    IOTC_DUID: null
+    # Path of the prepared dx_clip_demo checkout on the device (see README
+    # prerequisites). The component runs CLIP from this installation.
+    CLIP_DEMO_PATH: "/opt/deepx/dx_clip_demo"
+    # Camera index preference; the bridge auto-detects a working camera if
+    # this one fails.
+    CAMERA_INDEX: "0"
+    # Port for the local live-view web pages (/ /top /prompts /camera). "0" disables.
+    WEB_PORT: "8080"
+
+    accessControl:
+      aws.greengrass.ipc.mqttproxy:
+        io.iotconnect.example.IotConnectDeepxClipDemo:mqttproxy:1:
+          policyDescription: "IotConnectDeepxClipDemo direct access to /IOTCONNECT IoTCore"
+          operations:
+          - "aws.greengrass#SubscribeToIoTCore"
+          - "aws.greengrass#PublishToIoTCore"
+          resources:
+          - "*"
+      aws.greengrass.ipc.pubsub:
+        io.iotconnect.example.IotConnectDeepxClipDemo:pubsub:1:
+          policyDescription: "IotConnectDeepxClipDemo access to local IPC topics"
+          operations:
+            - "aws.greengrass#PublishToTopic"
+            - "aws.greengrass#SubscribeToTopic"
+          resources:
+            - "*"
+Manifests:
+  - Platform:
+      os: linux
+      runtime: "*"
+    Artifacts:
+      # Edit the line below with package s3 URL when uploading the component
+      - Uri: "s3://{{BUCKET_NAME}}/{{COMPONENT_NAME}}/{{VERSION}}/deepx-clip-demo.zip"
+        Unarchive: ZIP
+    Lifecycle:
+      install:
+        RequiresPrivilege: false
+        Timeout: 600
+        Setenv:
+          DX_CLIP_DEMO_ROOT: "{configuration:/CLIP_DEMO_PATH}"
+        Script: |
+          bash -x {artifacts:decompressedPath}/deepx-clip-demo*/wrapper/component-install.sh
+      run:
+        RequiresPrivilege: false
+        Setenv:
+          DX_CLIP_DEMO_ROOT: "{configuration:/CLIP_DEMO_PATH}"
+          CAMERA_INDEX: "{configuration:/CAMERA_INDEX}"
+          WEB_PORT: "{configuration:/WEB_PORT}"
+        Script: |
+          bash -x {artifacts:decompressedPath}/deepx-clip-demo*/wrapper/component-run.sh

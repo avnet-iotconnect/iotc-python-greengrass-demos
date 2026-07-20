@@ -1,0 +1,19 @@
+{
+  "component": {
+    "io.iotconnect.example.IotConnectDeepxClipDemo": {
+      "author": "Michael Lamp",
+      "version": "1.0.0",
+      "build": {
+        "build_system": "zip",
+        "options": {
+          "zip_name": "deepx-clip-demo"
+        }
+      },
+      "publish": {
+        "bucket": "iotc-deepx-clip-demo",
+        "region": "us-east-1"
+      }
+    }
+  },
+  "gdk_version": "1.0.0"
+}
