@@ -29,11 +29,11 @@
                         "key": "url"
                     },
                     "device": {
-                        "deviceGuid": "40E3564A-CE15-43BF-B962-511C5ABD5F31",
+                        "deviceGuid": "5C755B78-539A-4CD3-B711-C90DE5D1AB89",
                         "deviceName": "",
                         "imageurl": "",
                         "key": "device",
-                        "deviceUniqueId": "mclSTM32MP1"
+                        "deviceUniqueId": "RPi5demo99"
                     },
                     "telemetry": {
                         "deviceGuid": "",
@@ -67,120 +67,142 @@
                 "contents": {
                     "gauge": {
                         "device": {
-                            "deviceGuid": "40E3564A-CE15-43BF-B962-511C5ABD5F31",
-                            "deviceUniqueId": "mclSTM32MP1"
+                            "deviceGuid": "5C755B78-539A-4CD3-B711-C90DE5D1AB89",
+                            "deviceUniqueId": "RPi5demo99"
                         },
                         "attributes": {
                             "attribute": [
                                 {
-                                    "attributeGuid": "81F379D7-60CA-4829-8375-B6A045567E4D",
+                                    "attributeGuid": "7D4A79CD-1F11-493E-AE24-BBD05A04DBE8",
                                     "attributeName": "random",
+                                    "displayName": "",
                                     "checked": "false",
                                     "dataType": "INTEGER",
-                                    "attributeLatestValue": "61",
-                                    "deviceUpdatedDate": "2025-05-30T04:23:25.940Z",
+                                    "attributeLatestValue": "",
+                                    "deviceUpdatedDate": "1900-01-01T00:00:00.000Z",
                                     "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "61"
+                                    "attributeValue": "NA"
                                 },
                                 {
-                                    "attributeGuid": "B7AB2474-25A5-40AA-A8A0-3D07F8AAC33A",
+                                    "attributeGuid": "2DBCEF20-D9E8-4D5C-B892-E05E1386D1A4",
                                     "attributeName": "temperature",
+                                    "displayName": "",
                                     "checked": "false",
                                     "dataType": "DECIMAL",
-                                    "attributeLatestValue": "23.1",
-                                    "deviceUpdatedDate": "2025-05-30T04:23:25.963Z",
+                                    "attributeLatestValue": "",
+                                    "deviceUpdatedDate": "1900-01-01T00:00:00.000Z",
                                     "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "23.1"
+                                    "attributeValue": "NA"
                                 },
                                 {
-                                    "attributeGuid": "F152807A-9E14-4FB3-AD4D-C9D86B70FB01",
+                                    "attributeGuid": "E14A2E66-917A-443D-98BF-BB9A05DD2190",
                                     "attributeName": "humidity",
+                                    "displayName": "",
                                     "checked": "false",
                                     "dataType": "DECIMAL",
-                                    "attributeLatestValue": "30.43",
-                                    "deviceUpdatedDate": "2025-05-30T04:23:25.963Z",
+                                    "attributeLatestValue": "",
+                                    "deviceUpdatedDate": "1900-01-01T00:00:00.000Z",
                                     "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "30.43"
+                                    "attributeValue": "NA"
                                 },
                                 {
-                                    "attributeGuid": "C6F88750-0315-4F81-A21E-156355B5EDEF",
+                                    "attributeGuid": "B84A4A0B-FFCA-4D28-946D-E74F390CE9F3",
                                     "attributeName": "accel.x",
+                                    "displayName": "",
                                     "checked": "false",
                                     "dataType": "DECIMAL",
-                                    "attributeLatestValue": "0.573",
-                                    "deviceUpdatedDate": "2025-05-30T04:23:25.963Z",
+                                    "attributeLatestValue": "",
+                                    "deviceUpdatedDate": "1900-01-01T00:00:00.000Z",
                                     "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "0.573"
+                                    "attributeValue": "NA"
                                 },
                                 {
-                                    "attributeGuid": "CB4E5519-5E66-4280-B19A-F480C409F49C",
+                                    "attributeGuid": "23BD3CD2-DE66-4E3A-B826-E5889830AD3C",
                                     "attributeName": "accel.y",
+                                    "displayName": "",
                                     "checked": "false",
                                     "dataType": "DECIMAL",
-                                    "attributeLatestValue": "0.334",
-                                    "deviceUpdatedDate": "2025-05-30T04:23:25.963Z",
+                                    "attributeLatestValue": "",
+                                    "deviceUpdatedDate": "1900-01-01T00:00:00.000Z",
                                     "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "0.334"
+                                    "attributeValue": "NA"
                                 },
                                 {
-                                    "attributeGuid": "F3FEAF17-EC2D-442C-BB7F-7790F6A4B126",
+                                    "attributeGuid": "3F2EE57B-5837-4C2B-9E34-FD7115B25568",
                                     "attributeName": "accel.z",
+                                    "displayName": "",
                                     "checked": "false",
                                     "dataType": "DECIMAL",
-                                    "attributeLatestValue": "0.002",
-                                    "deviceUpdatedDate": "2025-05-30T04:23:25.963Z",
+                                    "attributeLatestValue": "",
+                                    "deviceUpdatedDate": "1900-01-01T00:00:00.000Z",
                                     "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "0.002"
+                                    "attributeValue": "NA"
                                 },
                                 {
-                                    "attributeGuid": "29428C58-A0C2-42F5-AD1D-DCF9BCD9AEB6",
-                                    "attributeName": "lat_long",
+                                    "attributeGuid": "16BAE24A-F9B1-4267-9A72-9437B502C14F",
+                                    "attributeName": "system_info.cpu_mhz",
+                                    "displayName": "",
                                     "checked": "false",
-                                    "dataType": "LATLONG",
-                                    "attributeLatestValue": "[\n  34, \n  -43.22233\n]",
-                                    "deviceUpdatedDate": "2025-05-30T04:23:25.940Z",
+                                    "dataType": "DECIMAL",
+                                    "attributeLatestValue": "2400",
+                                    "deviceUpdatedDate": "2026-07-22T22:57:26.273Z",
                                     "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "[\n  34, \n  -43.22233\n]"
+                                    "attributeValue": "2400"
                                 },
                                 {
-                                    "attributeGuid": "4E3544E4-9D6B-49B4-979D-A217FDA4962C",
+                                    "attributeGuid": "DAF6A64A-87C4-427B-9572-52D63736BB6C",
                                     "attributeName": "system_info.cpu_physical_cores",
+                                    "displayName": "",
                                     "checked": "false",
-                                    "dataType": "DECIMAL",
-                                    "attributeLatestValue": "2",
-                                    "deviceUpdatedDate": "2025-05-30T04:23:31.947Z",
+                                    "dataType": "INTEGER",
+                                    "attributeLatestValue": "4",
+                                    "deviceUpdatedDate": "2026-07-22T22:57:26.273Z",
                                     "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "2"
+                                    "attributeValue": "4"
                                 },
                                 {
-                                    "attributeGuid": "F2E6C23C-1152-4C0A-B20F-E718692EE4D8",
+                                    "attributeGuid": "8603068E-4E79-4A75-8EC8-F20DFC97AC4E",
                                     "attributeName": "cpu.usage_percent",
+                                    "displayName": "",
                                     "checked": "true",
                                     "dataType": "DECIMAL",
-                                    "attributeLatestValue": "5.1",
-                                    "deviceUpdatedDate": "2025-05-30T04:23:31.947Z",
+                                    "attributeLatestValue": "0",
+                                    "deviceUpdatedDate": "2026-07-22T22:57:26.273Z",
                                     "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "5.1"
+                                    "attributeValue": "0"
                                 },
                                 {
-                                    "attributeGuid": "3AA964D3-2A91-4BA7-9FCC-21A6344DCFEB",
+                                    "attributeGuid": "37E4469E-70D7-4B01-B6D1-6F946783D91F",
+                                    "attributeName": "cpu.top_process_cpu_percent",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "DECIMAL",
+                                    "attributeLatestValue": "23.5",
+                                    "deviceUpdatedDate": "2026-07-22T22:57:26.273Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "23.5"
+                                },
+                                {
+                                    "attributeGuid": "53D7EA67-C29F-4922-BB42-417AD89E4850",
                                     "attributeName": "memory.percent",
+                                    "displayName": "",
                                     "checked": "false",
                                     "dataType": "DECIMAL",
-                                    "attributeLatestValue": "61.1",
-                                    "deviceUpdatedDate": "2025-05-30T04:23:31.947Z",
+                                    "attributeLatestValue": "5",
+                                    "deviceUpdatedDate": "2026-07-22T22:57:26.273Z",
                                     "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "61.1"
+                                    "attributeValue": "5"
                                 },
                                 {
-                                    "attributeGuid": "2A2FE999-368C-43EE-AEDE-7C62581DDF7F",
+                                    "attributeGuid": "16D04980-2618-49E4-8EC9-EC2508E9A0A3",
                                     "attributeName": "storage.percent",
+                                    "displayName": "",
                                     "checked": "false",
                                     "dataType": "DECIMAL",
-                                    "attributeLatestValue": "24.4",
-                                    "deviceUpdatedDate": "2025-05-30T04:23:31.947Z",
+                                    "attributeLatestValue": "17",
+                                    "deviceUpdatedDate": "2026-07-22T22:57:26.273Z",
                                     "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "24.4"
+                                    "attributeValue": "17"
                                 }
                             ]
                         },
@@ -207,7 +229,8 @@
                                 "showColorPicker": "false"
                             }
                         ],
-                        "key": "gauge"
+                        "key": "gauge",
+                        "attrType": "1"
                     }
                 }
             },
@@ -237,120 +260,142 @@
                 "contents": {
                     "gauge": {
                         "device": {
-                            "deviceGuid": "40E3564A-CE15-43BF-B962-511C5ABD5F31",
-                            "deviceUniqueId": "mclSTM32MP1"
+                            "deviceGuid": "5C755B78-539A-4CD3-B711-C90DE5D1AB89",
+                            "deviceUniqueId": "RPi5demo99"
                         },
                         "attributes": {
                             "attribute": [
                                 {
-                                    "attributeGuid": "81F379D7-60CA-4829-8375-B6A045567E4D",
+                                    "attributeGuid": "7D4A79CD-1F11-493E-AE24-BBD05A04DBE8",
                                     "attributeName": "random",
+                                    "displayName": "",
                                     "checked": "false",
                                     "dataType": "INTEGER",
-                                    "attributeLatestValue": "61",
-                                    "deviceUpdatedDate": "2025-05-30T04:23:25.940Z",
+                                    "attributeLatestValue": "",
+                                    "deviceUpdatedDate": "1900-01-01T00:00:00.000Z",
                                     "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "61"
+                                    "attributeValue": "NA"
                                 },
                                 {
-                                    "attributeGuid": "B7AB2474-25A5-40AA-A8A0-3D07F8AAC33A",
+                                    "attributeGuid": "2DBCEF20-D9E8-4D5C-B892-E05E1386D1A4",
                                     "attributeName": "temperature",
+                                    "displayName": "",
                                     "checked": "false",
                                     "dataType": "DECIMAL",
-                                    "attributeLatestValue": "23.1",
-                                    "deviceUpdatedDate": "2025-05-30T04:23:25.963Z",
+                                    "attributeLatestValue": "",
+                                    "deviceUpdatedDate": "1900-01-01T00:00:00.000Z",
                                     "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "23.1"
+                                    "attributeValue": "NA"
                                 },
                                 {
-                                    "attributeGuid": "F152807A-9E14-4FB3-AD4D-C9D86B70FB01",
+                                    "attributeGuid": "E14A2E66-917A-443D-98BF-BB9A05DD2190",
                                     "attributeName": "humidity",
+                                    "displayName": "",
                                     "checked": "false",
                                     "dataType": "DECIMAL",
-                                    "attributeLatestValue": "30.43",
-                                    "deviceUpdatedDate": "2025-05-30T04:23:25.963Z",
+                                    "attributeLatestValue": "",
+                                    "deviceUpdatedDate": "1900-01-01T00:00:00.000Z",
                                     "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "30.43"
+                                    "attributeValue": "NA"
                                 },
                                 {
-                                    "attributeGuid": "C6F88750-0315-4F81-A21E-156355B5EDEF",
+                                    "attributeGuid": "B84A4A0B-FFCA-4D28-946D-E74F390CE9F3",
                                     "attributeName": "accel.x",
+                                    "displayName": "",
                                     "checked": "false",
                                     "dataType": "DECIMAL",
-                                    "attributeLatestValue": "0.573",
-                                    "deviceUpdatedDate": "2025-05-30T04:23:25.963Z",
+                                    "attributeLatestValue": "",
+                                    "deviceUpdatedDate": "1900-01-01T00:00:00.000Z",
                                     "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "0.573"
+                                    "attributeValue": "NA"
                                 },
                                 {
-                                    "attributeGuid": "CB4E5519-5E66-4280-B19A-F480C409F49C",
+                                    "attributeGuid": "23BD3CD2-DE66-4E3A-B826-E5889830AD3C",
                                     "attributeName": "accel.y",
+                                    "displayName": "",
                                     "checked": "false",
                                     "dataType": "DECIMAL",
-                                    "attributeLatestValue": "0.334",
-                                    "deviceUpdatedDate": "2025-05-30T04:23:25.963Z",
+                                    "attributeLatestValue": "",
+                                    "deviceUpdatedDate": "1900-01-01T00:00:00.000Z",
                                     "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "0.334"
+                                    "attributeValue": "NA"
                                 },
                                 {
-                                    "attributeGuid": "F3FEAF17-EC2D-442C-BB7F-7790F6A4B126",
+                                    "attributeGuid": "3F2EE57B-5837-4C2B-9E34-FD7115B25568",
                                     "attributeName": "accel.z",
+                                    "displayName": "",
                                     "checked": "false",
                                     "dataType": "DECIMAL",
-                                    "attributeLatestValue": "0.002",
-                                    "deviceUpdatedDate": "2025-05-30T04:23:25.963Z",
+                                    "attributeLatestValue": "",
+                                    "deviceUpdatedDate": "1900-01-01T00:00:00.000Z",
                                     "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "0.002"
+                                    "attributeValue": "NA"
                                 },
                                 {
-                                    "attributeGuid": "29428C58-A0C2-42F5-AD1D-DCF9BCD9AEB6",
-                                    "attributeName": "lat_long",
+                                    "attributeGuid": "16BAE24A-F9B1-4267-9A72-9437B502C14F",
+                                    "attributeName": "system_info.cpu_mhz",
+                                    "displayName": "",
                                     "checked": "false",
-                                    "dataType": "LATLONG",
-                                    "attributeLatestValue": "[\n  34, \n  -43.22233\n]",
-                                    "deviceUpdatedDate": "2025-05-30T04:23:25.940Z",
+                                    "dataType": "DECIMAL",
+                                    "attributeLatestValue": "2400",
+                                    "deviceUpdatedDate": "2026-07-22T22:57:26.273Z",
                                     "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "[\n  34, \n  -43.22233\n]"
+                                    "attributeValue": "2400"
                                 },
                                 {
-                                    "attributeGuid": "4E3544E4-9D6B-49B4-979D-A217FDA4962C",
+                                    "attributeGuid": "DAF6A64A-87C4-427B-9572-52D63736BB6C",
                                     "attributeName": "system_info.cpu_physical_cores",
+                                    "displayName": "",
                                     "checked": "false",
-                                    "dataType": "DECIMAL",
-                                    "attributeLatestValue": "2",
-                                    "deviceUpdatedDate": "2025-05-30T04:23:31.947Z",
+                                    "dataType": "INTEGER",
+                                    "attributeLatestValue": "4",
+                                    "deviceUpdatedDate": "2026-07-22T22:57:26.273Z",
                                     "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "2"
+                                    "attributeValue": "4"
                                 },
                                 {
-                                    "attributeGuid": "F2E6C23C-1152-4C0A-B20F-E718692EE4D8",
+                                    "attributeGuid": "8603068E-4E79-4A75-8EC8-F20DFC97AC4E",
                                     "attributeName": "cpu.usage_percent",
+                                    "displayName": "",
                                     "checked": "false",
                                     "dataType": "DECIMAL",
-                                    "attributeLatestValue": "5.1",
-                                    "deviceUpdatedDate": "2025-05-30T04:23:31.947Z",
+                                    "attributeLatestValue": "0",
+                                    "deviceUpdatedDate": "2026-07-22T22:57:26.273Z",
                                     "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "5.1"
+                                    "attributeValue": "0"
                                 },
                                 {
-                                    "attributeGuid": "3AA964D3-2A91-4BA7-9FCC-21A6344DCFEB",
+                                    "attributeGuid": "37E4469E-70D7-4B01-B6D1-6F946783D91F",
+                                    "attributeName": "cpu.top_process_cpu_percent",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "DECIMAL",
+                                    "attributeLatestValue": "23.5",
+                                    "deviceUpdatedDate": "2026-07-22T22:57:26.273Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "23.5"
+                                },
+                                {
+                                    "attributeGuid": "53D7EA67-C29F-4922-BB42-417AD89E4850",
                                     "attributeName": "memory.percent",
+                                    "displayName": "",
                                     "checked": "false",
                                     "dataType": "DECIMAL",
-                                    "attributeLatestValue": "61.1",
-                                    "deviceUpdatedDate": "2025-05-30T04:23:31.947Z",
+                                    "attributeLatestValue": "5",
+                                    "deviceUpdatedDate": "2026-07-22T22:57:26.273Z",
                                     "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "61.1"
+                                    "attributeValue": "5"
                                 },
                                 {
-                                    "attributeGuid": "2A2FE999-368C-43EE-AEDE-7C62581DDF7F",
+                                    "attributeGuid": "16D04980-2618-49E4-8EC9-EC2508E9A0A3",
                                     "attributeName": "storage.percent",
+                                    "displayName": "",
                                     "checked": "true",
                                     "dataType": "DECIMAL",
-                                    "attributeLatestValue": "24.4",
-                                    "deviceUpdatedDate": "2025-05-30T04:23:31.947Z",
+                                    "attributeLatestValue": "17",
+                                    "deviceUpdatedDate": "2026-07-22T22:57:26.273Z",
                                     "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "24.4"
+                                    "attributeValue": "17"
                                 }
                             ]
                         },
@@ -377,7 +422,8 @@
                                 "showColorPicker": "false"
                             }
                         ],
-                        "key": "gauge"
+                        "key": "gauge",
+                        "attrType": "1"
                     }
                 }
             },
@@ -407,120 +453,142 @@
                 "contents": {
                     "gauge": {
                         "device": {
-                            "deviceGuid": "40E3564A-CE15-43BF-B962-511C5ABD5F31",
-                            "deviceUniqueId": "mclSTM32MP1"
+                            "deviceGuid": "5C755B78-539A-4CD3-B711-C90DE5D1AB89",
+                            "deviceUniqueId": "RPi5demo99"
                         },
                         "attributes": {
                             "attribute": [
                                 {
-                                    "attributeGuid": "81F379D7-60CA-4829-8375-B6A045567E4D",
+                                    "attributeGuid": "7D4A79CD-1F11-493E-AE24-BBD05A04DBE8",
                                     "attributeName": "random",
+                                    "displayName": "",
                                     "checked": "false",
                                     "dataType": "INTEGER",
-                                    "attributeLatestValue": "61",
-                                    "deviceUpdatedDate": "2025-05-30T04:23:25.940Z",
+                                    "attributeLatestValue": "",
+                                    "deviceUpdatedDate": "1900-01-01T00:00:00.000Z",
                                     "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "61"
+                                    "attributeValue": "NA"
                                 },
                                 {
-                                    "attributeGuid": "B7AB2474-25A5-40AA-A8A0-3D07F8AAC33A",
+                                    "attributeGuid": "2DBCEF20-D9E8-4D5C-B892-E05E1386D1A4",
                                     "attributeName": "temperature",
+                                    "displayName": "",
                                     "checked": "false",
                                     "dataType": "DECIMAL",
-                                    "attributeLatestValue": "23.1",
-                                    "deviceUpdatedDate": "2025-05-30T04:23:25.963Z",
+                                    "attributeLatestValue": "",
+                                    "deviceUpdatedDate": "1900-01-01T00:00:00.000Z",
                                     "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "23.1"
+                                    "attributeValue": "NA"
                                 },
                                 {
-                                    "attributeGuid": "F152807A-9E14-4FB3-AD4D-C9D86B70FB01",
+                                    "attributeGuid": "E14A2E66-917A-443D-98BF-BB9A05DD2190",
                                     "attributeName": "humidity",
+                                    "displayName": "",
                                     "checked": "false",
                                     "dataType": "DECIMAL",
-                                    "attributeLatestValue": "30.43",
-                                    "deviceUpdatedDate": "2025-05-30T04:23:25.963Z",
+                                    "attributeLatestValue": "",
+                                    "deviceUpdatedDate": "1900-01-01T00:00:00.000Z",
                                     "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "30.43"
+                                    "attributeValue": "NA"
                                 },
                                 {
-                                    "attributeGuid": "C6F88750-0315-4F81-A21E-156355B5EDEF",
+                                    "attributeGuid": "B84A4A0B-FFCA-4D28-946D-E74F390CE9F3",
                                     "attributeName": "accel.x",
+                                    "displayName": "",
                                     "checked": "false",
                                     "dataType": "DECIMAL",
-                                    "attributeLatestValue": "0.573",
-                                    "deviceUpdatedDate": "2025-05-30T04:23:25.963Z",
+                                    "attributeLatestValue": "",
+                                    "deviceUpdatedDate": "1900-01-01T00:00:00.000Z",
                                     "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "0.573"
+                                    "attributeValue": "NA"
                                 },
                                 {
-                                    "attributeGuid": "CB4E5519-5E66-4280-B19A-F480C409F49C",
+                                    "attributeGuid": "23BD3CD2-DE66-4E3A-B826-E5889830AD3C",
                                     "attributeName": "accel.y",
+                                    "displayName": "",
                                     "checked": "false",
                                     "dataType": "DECIMAL",
-                                    "attributeLatestValue": "0.334",
-                                    "deviceUpdatedDate": "2025-05-30T04:23:25.963Z",
+                                    "attributeLatestValue": "",
+                                    "deviceUpdatedDate": "1900-01-01T00:00:00.000Z",
                                     "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "0.334"
+                                    "attributeValue": "NA"
                                 },
                                 {
-                                    "attributeGuid": "F3FEAF17-EC2D-442C-BB7F-7790F6A4B126",
+                                    "attributeGuid": "3F2EE57B-5837-4C2B-9E34-FD7115B25568",
                                     "attributeName": "accel.z",
+                                    "displayName": "",
                                     "checked": "false",
                                     "dataType": "DECIMAL",
-                                    "attributeLatestValue": "0.002",
-                                    "deviceUpdatedDate": "2025-05-30T04:23:25.963Z",
+                                    "attributeLatestValue": "",
+                                    "deviceUpdatedDate": "1900-01-01T00:00:00.000Z",
                                     "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "0.002"
+                                    "attributeValue": "NA"
                                 },
                                 {
-                                    "attributeGuid": "29428C58-A0C2-42F5-AD1D-DCF9BCD9AEB6",
-                                    "attributeName": "lat_long",
+                                    "attributeGuid": "16BAE24A-F9B1-4267-9A72-9437B502C14F",
+                                    "attributeName": "system_info.cpu_mhz",
+                                    "displayName": "",
                                     "checked": "false",
-                                    "dataType": "LATLONG",
-                                    "attributeLatestValue": "[\n  34, \n  -43.22233\n]",
-                                    "deviceUpdatedDate": "2025-05-30T04:23:25.940Z",
+                                    "dataType": "DECIMAL",
+                                    "attributeLatestValue": "2400",
+                                    "deviceUpdatedDate": "2026-07-22T22:57:26.273Z",
                                     "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "[\n  34, \n  -43.22233\n]"
+                                    "attributeValue": "2400"
                                 },
                                 {
-                                    "attributeGuid": "4E3544E4-9D6B-49B4-979D-A217FDA4962C",
+                                    "attributeGuid": "DAF6A64A-87C4-427B-9572-52D63736BB6C",
                                     "attributeName": "system_info.cpu_physical_cores",
+                                    "displayName": "",
                                     "checked": "false",
-                                    "dataType": "DECIMAL",
-                                    "attributeLatestValue": "2",
-                                    "deviceUpdatedDate": "2025-05-30T04:23:31.947Z",
+                                    "dataType": "INTEGER",
+                                    "attributeLatestValue": "4",
+                                    "deviceUpdatedDate": "2026-07-22T22:57:26.273Z",
                                     "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "2"
+                                    "attributeValue": "4"
                                 },
                                 {
-                                    "attributeGuid": "F2E6C23C-1152-4C0A-B20F-E718692EE4D8",
+                                    "attributeGuid": "8603068E-4E79-4A75-8EC8-F20DFC97AC4E",
                                     "attributeName": "cpu.usage_percent",
+                                    "displayName": "",
                                     "checked": "false",
                                     "dataType": "DECIMAL",
-                                    "attributeLatestValue": "5.1",
-                                    "deviceUpdatedDate": "2025-05-30T04:23:31.947Z",
+                                    "attributeLatestValue": "0",
+                                    "deviceUpdatedDate": "2026-07-22T22:57:26.273Z",
                                     "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "5.1"
+                                    "attributeValue": "0"
                                 },
                                 {
-                                    "attributeGuid": "3AA964D3-2A91-4BA7-9FCC-21A6344DCFEB",
+                                    "attributeGuid": "37E4469E-70D7-4B01-B6D1-6F946783D91F",
+                                    "attributeName": "cpu.top_process_cpu_percent",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "DECIMAL",
+                                    "attributeLatestValue": "23.5",
+                                    "deviceUpdatedDate": "2026-07-22T22:57:26.273Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "23.5"
+                                },
+                                {
+                                    "attributeGuid": "53D7EA67-C29F-4922-BB42-417AD89E4850",
                                     "attributeName": "memory.percent",
+                                    "displayName": "",
                                     "checked": "true",
                                     "dataType": "DECIMAL",
-                                    "attributeLatestValue": "61.1",
-                                    "deviceUpdatedDate": "2025-05-30T04:23:31.947Z",
+                                    "attributeLatestValue": "5",
+                                    "deviceUpdatedDate": "2026-07-22T22:57:26.273Z",
                                     "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "61.1"
+                                    "attributeValue": "5"
                                 },
                                 {
-                                    "attributeGuid": "2A2FE999-368C-43EE-AEDE-7C62581DDF7F",
+                                    "attributeGuid": "16D04980-2618-49E4-8EC9-EC2508E9A0A3",
                                     "attributeName": "storage.percent",
+                                    "displayName": "",
                                     "checked": "false",
                                     "dataType": "DECIMAL",
-                                    "attributeLatestValue": "24.4",
-                                    "deviceUpdatedDate": "2025-05-30T04:23:31.947Z",
+                                    "attributeLatestValue": "17",
+                                    "deviceUpdatedDate": "2026-07-22T22:57:26.273Z",
                                     "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "24.4"
+                                    "attributeValue": "17"
                                 }
                             ]
                         },
@@ -547,7 +615,8 @@
                                 "showColorPicker": "false"
                             }
                         ],
-                        "key": "gauge"
+                        "key": "gauge",
+                        "attrType": "1"
                     }
                 }
             },
@@ -577,120 +646,142 @@
                 "contents": {
                     "gauge": {
                         "device": {
-                            "deviceGuid": "40E3564A-CE15-43BF-B962-511C5ABD5F31",
-                            "deviceUniqueId": "mclSTM32MP1"
+                            "deviceGuid": "5C755B78-539A-4CD3-B711-C90DE5D1AB89",
+                            "deviceUniqueId": "RPi5demo99"
                         },
                         "attributes": {
                             "attribute": [
                                 {
-                                    "attributeGuid": "81F379D7-60CA-4829-8375-B6A045567E4D",
+                                    "attributeGuid": "7D4A79CD-1F11-493E-AE24-BBD05A04DBE8",
                                     "attributeName": "random",
+                                    "displayName": "",
                                     "checked": "false",
                                     "dataType": "INTEGER",
-                                    "attributeLatestValue": "61",
-                                    "deviceUpdatedDate": "2025-05-30T04:23:25.940Z",
+                                    "attributeLatestValue": "",
+                                    "deviceUpdatedDate": "1900-01-01T00:00:00.000Z",
                                     "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "61"
+                                    "attributeValue": "NA"
                                 },
                                 {
-                                    "attributeGuid": "B7AB2474-25A5-40AA-A8A0-3D07F8AAC33A",
+                                    "attributeGuid": "2DBCEF20-D9E8-4D5C-B892-E05E1386D1A4",
                                     "attributeName": "temperature",
+                                    "displayName": "",
                                     "checked": "true",
                                     "dataType": "DECIMAL",
-                                    "attributeLatestValue": "23.1",
-                                    "deviceUpdatedDate": "2025-05-30T04:23:25.963Z",
+                                    "attributeLatestValue": "",
+                                    "deviceUpdatedDate": "1900-01-01T00:00:00.000Z",
                                     "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "23.1"
+                                    "attributeValue": "NA"
                                 },
                                 {
-                                    "attributeGuid": "F152807A-9E14-4FB3-AD4D-C9D86B70FB01",
+                                    "attributeGuid": "E14A2E66-917A-443D-98BF-BB9A05DD2190",
                                     "attributeName": "humidity",
+                                    "displayName": "",
                                     "checked": "false",
                                     "dataType": "DECIMAL",
-                                    "attributeLatestValue": "30.43",
-                                    "deviceUpdatedDate": "2025-05-30T04:23:25.963Z",
+                                    "attributeLatestValue": "",
+                                    "deviceUpdatedDate": "1900-01-01T00:00:00.000Z",
                                     "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "30.43"
+                                    "attributeValue": "NA"
                                 },
                                 {
-                                    "attributeGuid": "C6F88750-0315-4F81-A21E-156355B5EDEF",
+                                    "attributeGuid": "B84A4A0B-FFCA-4D28-946D-E74F390CE9F3",
                                     "attributeName": "accel.x",
+                                    "displayName": "",
                                     "checked": "false",
                                     "dataType": "DECIMAL",
-                                    "attributeLatestValue": "0.573",
-                                    "deviceUpdatedDate": "2025-05-30T04:23:25.963Z",
+                                    "attributeLatestValue": "",
+                                    "deviceUpdatedDate": "1900-01-01T00:00:00.000Z",
                                     "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "0.573"
+                                    "attributeValue": "NA"
                                 },
                                 {
-                                    "attributeGuid": "CB4E5519-5E66-4280-B19A-F480C409F49C",
+                                    "attributeGuid": "23BD3CD2-DE66-4E3A-B826-E5889830AD3C",
                                     "attributeName": "accel.y",
+                                    "displayName": "",
                                     "checked": "false",
                                     "dataType": "DECIMAL",
-                                    "attributeLatestValue": "0.334",
-                                    "deviceUpdatedDate": "2025-05-30T04:23:25.963Z",
+                                    "attributeLatestValue": "",
+                                    "deviceUpdatedDate": "1900-01-01T00:00:00.000Z",
                                     "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "0.334"
+                                    "attributeValue": "NA"
                                 },
                                 {
-                                    "attributeGuid": "F3FEAF17-EC2D-442C-BB7F-7790F6A4B126",
+                                    "attributeGuid": "3F2EE57B-5837-4C2B-9E34-FD7115B25568",
                                     "attributeName": "accel.z",
+                                    "displayName": "",
                                     "checked": "false",
                                     "dataType": "DECIMAL",
-                                    "attributeLatestValue": "0.002",
-                                    "deviceUpdatedDate": "2025-05-30T04:23:25.963Z",
+                                    "attributeLatestValue": "",
+                                    "deviceUpdatedDate": "1900-01-01T00:00:00.000Z",
                                     "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "0.002"
+                                    "attributeValue": "NA"
                                 },
                                 {
-                                    "attributeGuid": "29428C58-A0C2-42F5-AD1D-DCF9BCD9AEB6",
-                                    "attributeName": "lat_long",
+                                    "attributeGuid": "16BAE24A-F9B1-4267-9A72-9437B502C14F",
+                                    "attributeName": "system_info.cpu_mhz",
+                                    "displayName": "",
                                     "checked": "false",
-                                    "dataType": "LATLONG",
-                                    "attributeLatestValue": "[\n  34, \n  -43.22233\n]",
-                                    "deviceUpdatedDate": "2025-05-30T04:23:25.940Z",
+                                    "dataType": "DECIMAL",
+                                    "attributeLatestValue": "2400",
+                                    "deviceUpdatedDate": "2026-07-22T22:57:26.273Z",
                                     "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "[\n  34, \n  -43.22233\n]"
+                                    "attributeValue": "2400"
                                 },
                                 {
-                                    "attributeGuid": "4E3544E4-9D6B-49B4-979D-A217FDA4962C",
+                                    "attributeGuid": "DAF6A64A-87C4-427B-9572-52D63736BB6C",
                                     "attributeName": "system_info.cpu_physical_cores",
+                                    "displayName": "",
                                     "checked": "false",
-                                    "dataType": "DECIMAL",
-                                    "attributeLatestValue": "2",
-                                    "deviceUpdatedDate": "2025-05-30T04:23:31.947Z",
+                                    "dataType": "INTEGER",
+                                    "attributeLatestValue": "4",
+                                    "deviceUpdatedDate": "2026-07-22T22:57:26.273Z",
                                     "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "2"
+                                    "attributeValue": "4"
                                 },
                                 {
-                                    "attributeGuid": "F2E6C23C-1152-4C0A-B20F-E718692EE4D8",
+                                    "attributeGuid": "8603068E-4E79-4A75-8EC8-F20DFC97AC4E",
                                     "attributeName": "cpu.usage_percent",
+                                    "displayName": "",
                                     "checked": "false",
                                     "dataType": "DECIMAL",
-                                    "attributeLatestValue": "5.1",
-                                    "deviceUpdatedDate": "2025-05-30T04:23:31.947Z",
+                                    "attributeLatestValue": "0",
+                                    "deviceUpdatedDate": "2026-07-22T22:57:26.273Z",
                                     "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "5.1"
+                                    "attributeValue": "0"
                                 },
                                 {
-                                    "attributeGuid": "3AA964D3-2A91-4BA7-9FCC-21A6344DCFEB",
+                                    "attributeGuid": "37E4469E-70D7-4B01-B6D1-6F946783D91F",
+                                    "attributeName": "cpu.top_process_cpu_percent",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "DECIMAL",
+                                    "attributeLatestValue": "23.5",
+                                    "deviceUpdatedDate": "2026-07-22T22:57:26.273Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "23.5"
+                                },
+                                {
+                                    "attributeGuid": "53D7EA67-C29F-4922-BB42-417AD89E4850",
                                     "attributeName": "memory.percent",
+                                    "displayName": "",
                                     "checked": "false",
                                     "dataType": "DECIMAL",
-                                    "attributeLatestValue": "61.1",
-                                    "deviceUpdatedDate": "2025-05-30T04:23:31.947Z",
+                                    "attributeLatestValue": "5",
+                                    "deviceUpdatedDate": "2026-07-22T22:57:26.273Z",
                                     "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "61.1"
+                                    "attributeValue": "5"
                                 },
                                 {
-                                    "attributeGuid": "2A2FE999-368C-43EE-AEDE-7C62581DDF7F",
+                                    "attributeGuid": "16D04980-2618-49E4-8EC9-EC2508E9A0A3",
                                     "attributeName": "storage.percent",
+                                    "displayName": "",
                                     "checked": "false",
                                     "dataType": "DECIMAL",
-                                    "attributeLatestValue": "24.4",
-                                    "deviceUpdatedDate": "2025-05-30T04:23:31.947Z",
+                                    "attributeLatestValue": "17",
+                                    "deviceUpdatedDate": "2026-07-22T22:57:26.273Z",
                                     "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "24.4"
+                                    "attributeValue": "17"
                                 }
                             ]
                         },
@@ -717,7 +808,8 @@
                                 "showColorPicker": "false"
                             }
                         ],
-                        "key": "gauge"
+                        "key": "gauge",
+                        "attrType": "1"
                     }
                 }
             },
@@ -747,146 +839,159 @@
                 "contents": {
                     "combo": {
                         "device": {
-                            "deviceGuid": "40E3564A-CE15-43BF-B962-511C5ABD5F31",
-                            "deviceUniqueId": "mclSTM32MP1"
+                            "deviceGuid": "5C755B78-539A-4CD3-B711-C90DE5D1AB89",
+                            "deviceUniqueId": "RPi5demo99"
                         },
                         "attributes": {
                             "attribute": [
                                 {
-                                    "attributeGuid": "3F63D573-3667-437F-8173-7ACC20EBE2C9",
+                                    "attributeGuid": "7D4A79CD-1F11-493E-AE24-BBD05A04DBE8",
                                     "attributeName": "random",
+                                    "displayName": "",
                                     "checked": "false",
                                     "dataType": "INTEGER",
-                                    "attributeLatestValue": "50",
-                                    "deviceUpdatedDate": "2025-06-07T15:25:12.023Z",
+                                    "attributeLatestValue": "",
+                                    "deviceUpdatedDate": "1900-01-01T00:00:00.000Z",
                                     "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "50"
+                                    "attributeValue": "NA"
                                 },
                                 {
-                                    "attributeGuid": "6B1C62CB-CC03-4745-975D-778C9E484E54",
+                                    "attributeGuid": "2DBCEF20-D9E8-4D5C-B892-E05E1386D1A4",
                                     "attributeName": "temperature",
+                                    "displayName": "",
                                     "checked": "false",
                                     "dataType": "DECIMAL",
-                                    "attributeLatestValue": "23.1",
-                                    "deviceUpdatedDate": "2025-06-07T15:25:12.123Z",
+                                    "attributeLatestValue": "",
+                                    "deviceUpdatedDate": "1900-01-01T00:00:00.000Z",
                                     "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "23.1"
+                                    "attributeValue": "NA"
                                 },
                                 {
-                                    "attributeGuid": "FC937D20-84BD-49AB-B2AA-8EFCB759CF76",
+                                    "attributeGuid": "E14A2E66-917A-443D-98BF-BB9A05DD2190",
                                     "attributeName": "humidity",
+                                    "displayName": "",
                                     "checked": "false",
                                     "dataType": "DECIMAL",
-                                    "attributeLatestValue": "30.43",
-                                    "deviceUpdatedDate": "2025-06-07T15:25:12.123Z",
+                                    "attributeLatestValue": "",
+                                    "deviceUpdatedDate": "1900-01-01T00:00:00.000Z",
                                     "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "30.43"
+                                    "attributeValue": "NA"
                                 },
                                 {
-                                    "attributeGuid": "8391287D-233C-47D1-8E31-56C684D03196",
+                                    "attributeGuid": "B84A4A0B-FFCA-4D28-946D-E74F390CE9F3",
                                     "attributeName": "accel.x",
+                                    "displayName": "",
                                     "checked": "false",
                                     "dataType": "DECIMAL",
-                                    "attributeLatestValue": "0.573",
-                                    "deviceUpdatedDate": "2025-06-07T15:25:12.123Z",
+                                    "attributeLatestValue": "",
+                                    "deviceUpdatedDate": "1900-01-01T00:00:00.000Z",
                                     "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "0.573"
+                                    "attributeValue": "NA"
                                 },
                                 {
-                                    "attributeGuid": "F6A3F0E6-882B-4B29-B40C-29BB9554AFDB",
+                                    "attributeGuid": "23BD3CD2-DE66-4E3A-B826-E5889830AD3C",
                                     "attributeName": "accel.y",
+                                    "displayName": "",
                                     "checked": "false",
                                     "dataType": "DECIMAL",
-                                    "attributeLatestValue": "0.334",
-                                    "deviceUpdatedDate": "2025-06-07T15:25:12.123Z",
+                                    "attributeLatestValue": "",
+                                    "deviceUpdatedDate": "1900-01-01T00:00:00.000Z",
                                     "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "0.334"
+                                    "attributeValue": "NA"
                                 },
                                 {
-                                    "attributeGuid": "680A9E48-1EA5-48AF-877B-8CE174D1E832",
+                                    "attributeGuid": "3F2EE57B-5837-4C2B-9E34-FD7115B25568",
                                     "attributeName": "accel.z",
+                                    "displayName": "",
                                     "checked": "false",
                                     "dataType": "DECIMAL",
-                                    "attributeLatestValue": "0.002",
-                                    "deviceUpdatedDate": "2025-06-07T15:25:12.123Z",
+                                    "attributeLatestValue": "",
+                                    "deviceUpdatedDate": "1900-01-01T00:00:00.000Z",
                                     "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "0.002"
+                                    "attributeValue": "NA"
                                 },
                                 {
-                                    "attributeGuid": "FBFBD843-2CC2-491F-BB55-271C6F8B6768",
+                                    "attributeGuid": "16BAE24A-F9B1-4267-9A72-9437B502C14F",
                                     "attributeName": "system_info.cpu_mhz",
+                                    "displayName": "",
                                     "checked": "false",
                                     "dataType": "DECIMAL",
-                                    "attributeLatestValue": "1000",
-                                    "deviceUpdatedDate": "2025-06-07T15:25:31.073Z",
+                                    "attributeLatestValue": "2400",
+                                    "deviceUpdatedDate": "2026-07-22T22:50:45.160Z",
                                     "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "1000"
+                                    "attributeValue": "2400"
                                 },
                                 {
-                                    "attributeGuid": "885D5313-B28C-49D6-9040-CF160B69DB69",
+                                    "attributeGuid": "DAF6A64A-87C4-427B-9572-52D63736BB6C",
                                     "attributeName": "system_info.cpu_physical_cores",
+                                    "displayName": "",
                                     "checked": "false",
                                     "dataType": "INTEGER",
-                                    "attributeLatestValue": "1",
-                                    "deviceUpdatedDate": "2025-06-07T15:25:31.073Z",
+                                    "attributeLatestValue": "4",
+                                    "deviceUpdatedDate": "2026-07-22T22:50:45.160Z",
                                     "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "1"
+                                    "attributeValue": "4"
                                 },
                                 {
-                                    "attributeGuid": "0333FD60-C5CC-497C-8129-2C44318670A2",
+                                    "attributeGuid": "8603068E-4E79-4A75-8EC8-F20DFC97AC4E",
                                     "attributeName": "cpu.usage_percent",
+                                    "displayName": "",
                                     "checked": "false",
                                     "dataType": "DECIMAL",
-                                    "attributeLatestValue": "6.1",
-                                    "deviceUpdatedDate": "2025-06-07T15:25:31.073Z",
+                                    "attributeLatestValue": "0",
+                                    "deviceUpdatedDate": "2026-07-22T22:50:45.160Z",
                                     "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "6.1"
+                                    "attributeValue": "0"
                                 },
                                 {
-                                    "attributeGuid": "74EFC5E4-EC7E-4DE2-A3A9-77D85B3712BB",
+                                    "attributeGuid": "37E4469E-70D7-4B01-B6D1-6F946783D91F",
                                     "attributeName": "cpu.top_process_cpu_percent",
+                                    "displayName": "",
                                     "checked": "false",
                                     "dataType": "DECIMAL",
-                                    "attributeLatestValue": "80.1",
-                                    "deviceUpdatedDate": "2025-06-07T15:25:31.073Z",
+                                    "attributeLatestValue": "15.6",
+                                    "deviceUpdatedDate": "2026-07-22T22:50:45.160Z",
                                     "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "80.1"
+                                    "attributeValue": "15.6"
                                 },
                                 {
-                                    "attributeGuid": "4E0C4B49-8BE4-4CD7-821E-B772BF22757B",
+                                    "attributeGuid": "53D7EA67-C29F-4922-BB42-417AD89E4850",
                                     "attributeName": "memory.percent",
+                                    "displayName": "",
                                     "checked": "false",
                                     "dataType": "DECIMAL",
-                                    "attributeLatestValue": "35.3",
-                                    "deviceUpdatedDate": "2025-06-07T15:25:31.073Z",
+                                    "attributeLatestValue": "5",
+                                    "deviceUpdatedDate": "2026-07-22T22:50:45.160Z",
                                     "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "35.3"
+                                    "attributeValue": "5"
                                 },
                                 {
-                                    "attributeGuid": "F5AB40A4-4C33-41C1-8653-37B0A1FB5A3D",
+                                    "attributeGuid": "16D04980-2618-49E4-8EC9-EC2508E9A0A3",
                                     "attributeName": "storage.percent",
+                                    "displayName": "",
                                     "checked": "false",
                                     "dataType": "DECIMAL",
-                                    "attributeLatestValue": "22.7",
-                                    "deviceUpdatedDate": "2025-06-07T15:25:31.073Z",
+                                    "attributeLatestValue": "17",
+                                    "deviceUpdatedDate": "2026-07-22T22:50:45.160Z",
                                     "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "22.7"
+                                    "attributeValue": "17"
                                 }
                             ]
                         },
                         "lineAttributes": {
-                            "lineAttributeGuid": "4E0C4B49-8BE4-4CD7-821E-B772BF22757B",
+                            "lineAttributeGuid": "53D7EA67-C29F-4922-BB42-417AD89E4850",
                             "lineAttributeName": "memory.percent",
                             "lineAttributeColor": "#4a90e2"
                         },
                         "barAttributes": {
-                            "barAttributeGuid": "0333FD60-C5CC-497C-8129-2C44318670A2",
+                            "barAttributeGuid": "8603068E-4E79-4A75-8EC8-F20DFC97AC4E",
                             "barAttributeName": "cpu.usage_percent",
-                            "barAttributeColor": "#d0021b"
+                            "barAttributeColor": "#f5a623"
                         },
                         "lineColor": "#00cc00",
                         "barColor": "#00cc00",
                         "barCount": "5",
+                        "attrType": "1",
                         "lineAttributeGuid": "",
                         "lineAttributeName": "",
                         "lineAttributeColor": "",
@@ -901,7 +1006,7 @@
             "properties": {
                 "x": "40",
                 "y": "5",
-                "w": "21",
+                "w": "22",
                 "h": "25",
                 "i": "combo",
                 "minW": "16",
@@ -913,8 +1018,8 @@
             "widgetGuid": "467C0822-E1C7-4F0F-8361-DEC065A9FB1B",
             "widgetProperties": {
                 "i": "bar",
-                "background": "#ffffff",
-                "fontColor": "#000000",
+                "background": "#fff",
+                "fontColor": "#343434",
                 "fontFamily": "Proxima Nova",
                 "fontSize": "18",
                 "title": "Storage",
@@ -922,150 +1027,163 @@
                 "contents": {
                     "bar": {
                         "device": {
-                            "deviceGuid": "40E3564A-CE15-43BF-B962-511C5ABD5F31",
-                            "deviceUniqueId": "mclSTM32MP1"
+                            "deviceGuid": "5C755B78-539A-4CD3-B711-C90DE5D1AB89",
+                            "deviceUniqueId": "RPi5demo99"
                         },
                         "attributes": {
                             "attribute": [
                                 {
-                                    "attributeGuid": "3F63D573-3667-437F-8173-7ACC20EBE2C9",
+                                    "attributeGuid": "7D4A79CD-1F11-493E-AE24-BBD05A04DBE8",
                                     "attributeName": "random",
+                                    "displayName": "",
                                     "checked": "false",
                                     "dataType": "INTEGER",
-                                    "attributeLatestValue": "30",
-                                    "deviceUpdatedDate": "2025-06-07T15:21:59.910Z",
+                                    "attributeLatestValue": "",
+                                    "deviceUpdatedDate": "1900-01-01T00:00:00.000Z",
                                     "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "30"
+                                    "attributeValue": "NA"
                                 },
                                 {
-                                    "attributeGuid": "6B1C62CB-CC03-4745-975D-778C9E484E54",
+                                    "attributeGuid": "2DBCEF20-D9E8-4D5C-B892-E05E1386D1A4",
                                     "attributeName": "temperature",
+                                    "displayName": "",
                                     "checked": "false",
                                     "dataType": "DECIMAL",
-                                    "attributeLatestValue": "23.1",
-                                    "deviceUpdatedDate": "2025-06-07T15:21:59.913Z",
+                                    "attributeLatestValue": "",
+                                    "deviceUpdatedDate": "1900-01-01T00:00:00.000Z",
                                     "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "23.1"
+                                    "attributeValue": "NA"
                                 },
                                 {
-                                    "attributeGuid": "FC937D20-84BD-49AB-B2AA-8EFCB759CF76",
+                                    "attributeGuid": "E14A2E66-917A-443D-98BF-BB9A05DD2190",
                                     "attributeName": "humidity",
+                                    "displayName": "",
                                     "checked": "false",
                                     "dataType": "DECIMAL",
-                                    "attributeLatestValue": "30.43",
-                                    "deviceUpdatedDate": "2025-06-07T15:21:59.913Z",
+                                    "attributeLatestValue": "",
+                                    "deviceUpdatedDate": "1900-01-01T00:00:00.000Z",
                                     "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "30.43"
+                                    "attributeValue": "NA"
                                 },
                                 {
-                                    "attributeGuid": "8391287D-233C-47D1-8E31-56C684D03196",
+                                    "attributeGuid": "B84A4A0B-FFCA-4D28-946D-E74F390CE9F3",
                                     "attributeName": "accel.x",
+                                    "displayName": "",
                                     "checked": "false",
                                     "dataType": "DECIMAL",
-                                    "attributeLatestValue": "0.573",
-                                    "deviceUpdatedDate": "2025-06-07T15:21:59.913Z",
+                                    "attributeLatestValue": "",
+                                    "deviceUpdatedDate": "1900-01-01T00:00:00.000Z",
                                     "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "0.573"
+                                    "attributeValue": "NA"
                                 },
                                 {
-                                    "attributeGuid": "F6A3F0E6-882B-4B29-B40C-29BB9554AFDB",
+                                    "attributeGuid": "23BD3CD2-DE66-4E3A-B826-E5889830AD3C",
                                     "attributeName": "accel.y",
+                                    "displayName": "",
                                     "checked": "false",
                                     "dataType": "DECIMAL",
-                                    "attributeLatestValue": "0.334",
-                                    "deviceUpdatedDate": "2025-06-07T15:21:59.913Z",
+                                    "attributeLatestValue": "",
+                                    "deviceUpdatedDate": "1900-01-01T00:00:00.000Z",
                                     "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "0.334"
+                                    "attributeValue": "NA"
                                 },
                                 {
-                                    "attributeGuid": "680A9E48-1EA5-48AF-877B-8CE174D1E832",
+                                    "attributeGuid": "3F2EE57B-5837-4C2B-9E34-FD7115B25568",
                                     "attributeName": "accel.z",
+                                    "displayName": "",
                                     "checked": "false",
                                     "dataType": "DECIMAL",
-                                    "attributeLatestValue": "0.002",
-                                    "deviceUpdatedDate": "2025-06-07T15:21:59.913Z",
+                                    "attributeLatestValue": "",
+                                    "deviceUpdatedDate": "1900-01-01T00:00:00.000Z",
                                     "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "0.002"
+                                    "attributeValue": "NA"
                                 },
                                 {
-                                    "attributeGuid": "FBFBD843-2CC2-491F-BB55-271C6F8B6768",
+                                    "attributeGuid": "16BAE24A-F9B1-4267-9A72-9437B502C14F",
                                     "attributeName": "system_info.cpu_mhz",
+                                    "displayName": "",
                                     "checked": "false",
                                     "dataType": "DECIMAL",
-                                    "attributeLatestValue": "1000",
-                                    "deviceUpdatedDate": "2025-06-07T15:22:09.920Z",
+                                    "attributeLatestValue": "2400",
+                                    "deviceUpdatedDate": "2026-07-22T22:52:19.170Z",
                                     "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "1000"
+                                    "attributeValue": "2400"
                                 },
                                 {
-                                    "attributeGuid": "885D5313-B28C-49D6-9040-CF160B69DB69",
+                                    "attributeGuid": "DAF6A64A-87C4-427B-9572-52D63736BB6C",
                                     "attributeName": "system_info.cpu_physical_cores",
+                                    "displayName": "",
                                     "checked": "false",
                                     "dataType": "INTEGER",
-                                    "attributeLatestValue": "1",
-                                    "deviceUpdatedDate": "2025-06-07T15:22:09.920Z",
+                                    "attributeLatestValue": "4",
+                                    "deviceUpdatedDate": "2026-07-22T22:52:19.170Z",
                                     "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "1"
+                                    "attributeValue": "4"
                                 },
                                 {
-                                    "attributeGuid": "0333FD60-C5CC-497C-8129-2C44318670A2",
+                                    "attributeGuid": "8603068E-4E79-4A75-8EC8-F20DFC97AC4E",
                                     "attributeName": "cpu.usage_percent",
+                                    "displayName": "",
                                     "checked": "false",
                                     "dataType": "DECIMAL",
-                                    "attributeLatestValue": "6",
-                                    "deviceUpdatedDate": "2025-06-07T15:22:09.920Z",
+                                    "attributeLatestValue": "0",
+                                    "deviceUpdatedDate": "2026-07-22T22:52:19.170Z",
                                     "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "6"
+                                    "attributeValue": "0"
                                 },
                                 {
-                                    "attributeGuid": "74EFC5E4-EC7E-4DE2-A3A9-77D85B3712BB",
+                                    "attributeGuid": "37E4469E-70D7-4B01-B6D1-6F946783D91F",
                                     "attributeName": "cpu.top_process_cpu_percent",
+                                    "displayName": "",
                                     "checked": "false",
                                     "dataType": "DECIMAL",
-                                    "attributeLatestValue": "80.6",
-                                    "deviceUpdatedDate": "2025-06-07T15:22:09.920Z",
+                                    "attributeLatestValue": "23.6",
+                                    "deviceUpdatedDate": "2026-07-22T22:52:19.170Z",
                                     "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "80.6"
+                                    "attributeValue": "23.6"
                                 },
                                 {
-                                    "attributeGuid": "4E0C4B49-8BE4-4CD7-821E-B772BF22757B",
+                                    "attributeGuid": "53D7EA67-C29F-4922-BB42-417AD89E4850",
                                     "attributeName": "memory.percent",
+                                    "displayName": "",
                                     "checked": "false",
                                     "dataType": "DECIMAL",
-                                    "attributeLatestValue": "35.3",
-                                    "deviceUpdatedDate": "2025-06-07T15:22:09.920Z",
+                                    "attributeLatestValue": "4.9",
+                                    "deviceUpdatedDate": "2026-07-22T22:52:19.170Z",
                                     "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "35.3"
+                                    "attributeValue": "4.9"
                                 },
                                 {
-                                    "attributeGuid": "F5AB40A4-4C33-41C1-8653-37B0A1FB5A3D",
+                                    "attributeGuid": "16D04980-2618-49E4-8EC9-EC2508E9A0A3",
                                     "attributeName": "storage.percent",
+                                    "displayName": "",
                                     "checked": "false",
                                     "dataType": "DECIMAL",
-                                    "attributeLatestValue": "22.7",
-                                    "deviceUpdatedDate": "2025-06-07T15:22:09.920Z",
+                                    "attributeLatestValue": "17",
+                                    "deviceUpdatedDate": "2026-07-22T22:52:19.170Z",
                                     "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "22.7"
+                                    "attributeValue": "17"
                                 }
                             ]
                         },
                         "barAttr": {
-                            "barAttributeGuid": "F5AB40A4-4C33-41C1-8653-37B0A1FB5A3D",
-                            "barAttributeName": "storage.percent ",
-                            "barAttributeColor": "#bd10e0"
+                            "barAttributeGuid": "16D04980-2618-49E4-8EC9-EC2508E9A0A3",
+                            "barAttributeName": "storage.percent",
+                            "barAttributeColor": "#d0021b"
                         },
                         "barColor": "#00cc00",
                         "showCount": "",
                         "barCount": "5",
+                        "attrType": "1",
                         "key": "bar",
-                        "recentEndPoints": "10"
+                        "recentEndPoints": 10
                     }
                 }
             },
             "properties": {
-                "x": "61",
+                "x": "62",
                 "y": "5",
-                "w": "21",
+                "w": "20",
                 "h": "25",
                 "i": "bar",
                 "minW": "16",
@@ -1086,8 +1204,8 @@
                 "contents": {
                     "devicelatestvalue": {
                         "device": {
-                            "deviceGuid": "40E3564A-CE15-43BF-B962-511C5ABD5F31",
-                            "deviceUniqueId": "mclSTM32MP1"
+                            "deviceGuid": "5C755B78-539A-4CD3-B711-C90DE5D1AB89",
+                            "deviceUniqueId": "RPi5demo99"
                         },
                         "boxtypes": "3",
                         "attributes": {
@@ -1118,7 +1236,8 @@
                                 }
                             ]
                         },
-                        "key": "devicelatestvalue"
+                        "key": "devicelatestvalue",
+                        "attrType": "1"
                     }
                 }
             },
@@ -1148,8 +1267,8 @@
                 "contents": {
                     "Transformation": {
                         "device": {
-                            "deviceGuid": "40E3564A-CE15-43BF-B962-511C5ABD5F31",
-                            "deviceUniqueId": "mclSTM32MP1"
+                            "deviceGuid": "5C755B78-539A-4CD3-B711-C90DE5D1AB89",
+                            "deviceUniqueId": "RPi5demo99"
                         },
                         "attributes": {
                             "attribute": [
@@ -1165,7 +1284,7 @@
                                 },
                                 {
                                     "attributeGuid": "98AA9584-B610-460C-9D5C-04B498FE1AF8",
-                                    "attributeName": "mesage",
+                                    "attributeName": "message",
                                     "checked": "false",
                                     "dataType": "STRING",
                                     "attributeLatestValue": "",
@@ -1513,7 +1632,8 @@
                             "errors": "",
                             "typeValue": "https://www.python.org/static/community_logos/python-logo-master-v3-TM.png"
                         },
-                        "position": "center"
+                        "position": "center",
+                        "attrType": "1"
                     }
                 }
             },
@@ -1541,8 +1661,8 @@
                 "contents": {
                     "Transformation": {
                         "device": {
-                            "deviceGuid": "40E3564A-CE15-43BF-B962-511C5ABD5F31",
-                            "deviceUniqueId": "mclSTM32MP1"
+                            "deviceGuid": "5C755B78-539A-4CD3-B711-C90DE5D1AB89",
+                            "deviceUniqueId": "RPi5demo99"
                         },
                         "attributes": {
                             "attribute": [
@@ -1558,7 +1678,7 @@
                                 },
                                 {
                                     "attributeGuid": "98AA9584-B610-460C-9D5C-04B498FE1AF8",
-                                    "attributeName": "mesage",
+                                    "attributeName": "message",
                                     "checked": "false",
                                     "dataType": "STRING",
                                     "attributeLatestValue": "",
@@ -1906,7 +2026,8 @@
                             "errors": "",
                             "typeValue": "https://www.python.org/static/community_logos/python-logo-master-v3-TM.png"
                         },
-                        "position": "center"
+                        "position": "center",
+                        "attrType": "1"
                     }
                 }
             },
@@ -1942,8 +2063,8 @@
                     },
                     "live": {
                         "device": {
-                            "deviceGuid": "40E3564A-CE15-43BF-B962-511C5ABD5F31",
-                            "deviceUniqueId": "mclSTM32MP1"
+                            "deviceGuid": "5C755B78-539A-4CD3-B711-C90DE5D1AB89",
+                            "deviceUniqueId": "RPi5demo99"
                         },
                         "attributes": {
                             "attribute": [
@@ -1959,7 +2080,7 @@
                                 },
                                 {
                                     "attributeGuid": "98AA9584-B610-460C-9D5C-04B498FE1AF8",
-                                    "attributeName": "mesage",
+                                    "attributeName": "message",
                                     "checked": "false",
                                     "dataType": "STRING",
                                     "attributeLatestValue": "",
@@ -2300,7 +2421,8 @@
                             ]
                         },
                         "rules": "",
-                        "key": "live"
+                        "key": "live",
+                        "attrType": "1"
                     }
                 }
             },
@@ -2337,8 +2459,8 @@
                     },
                     "live": {
                         "device": {
-                            "deviceGuid": "40E3564A-CE15-43BF-B962-511C5ABD5F31",
-                            "deviceUniqueId": "mclSTM32MP1"
+                            "deviceGuid": "5C755B78-539A-4CD3-B711-C90DE5D1AB89",
+                            "deviceUniqueId": "RPi5demo99"
                         },
                         "attributes": {
                             "attribute": [
@@ -2354,7 +2476,7 @@
                                 },
                                 {
                                     "attributeGuid": "98AA9584-B610-460C-9D5C-04B498FE1AF8",
-                                    "attributeName": "mesage",
+                                    "attributeName": "message",
                                     "checked": "false",
                                     "dataType": "STRING",
                                     "attributeLatestValue": "",
@@ -2695,7 +2817,8 @@
                             ]
                         },
                         "rules": "",
-                        "key": "live"
+                        "key": "live",
+                        "attrType": "1"
                     }
                 }
             },
@@ -2708,385 +2831,6 @@
                 "minW": "7",
                 "minH": "4",
                 "maxH": "4",
-                "isStatic": "false"
-            }
-        },
-        {
-            "widgetGuid": "54D7CC1A-AB35-499E-85D7-2BC3D17526B0",
-            "widgetProperties": {
-                "i": "pie",
-                "background": "#ffffff",
-                "fontColor": "#000000",
-                "fontFamily": "Proxima Nova",
-                "fontSize": "18",
-                "title": "CPU Processes",
-                "titleAlign": "",
-                "contents": {
-                    "pie": {
-                        "device": {
-                            "deviceGuid": "40E3564A-CE15-43BF-B962-511C5ABD5F31",
-                            "deviceUniqueId": "mclSTM32MP1"
-                        },
-                        "attributes": {
-                            "attribute": [
-                                {
-                                    "attributeGuid": "C87FC924-0072-4CC0-9F47-5A8675508B83",
-                                    "attributeName": "version",
-                                    "checked": "false",
-                                    "dataType": "STRING",
-                                    "attributeLatestValue": "",
-                                    "deviceUpdatedDate": "1900-01-01T00:00:00.000Z",
-                                    "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "NA"
-                                },
-                                {
-                                    "attributeGuid": "98AA9584-B610-460C-9D5C-04B498FE1AF8",
-                                    "attributeName": "mesage",
-                                    "checked": "false",
-                                    "dataType": "STRING",
-                                    "attributeLatestValue": "",
-                                    "deviceUpdatedDate": "1900-01-01T00:00:00.000Z",
-                                    "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "NA"
-                                },
-                                {
-                                    "attributeGuid": "81F379D7-60CA-4829-8375-B6A045567E4D",
-                                    "attributeName": "random",
-                                    "checked": "false",
-                                    "dataType": "INTEGER",
-                                    "attributeLatestValue": "61",
-                                    "deviceUpdatedDate": "2025-05-30T04:23:25.940Z",
-                                    "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "61"
-                                },
-                                {
-                                    "attributeGuid": "B7AB2474-25A5-40AA-A8A0-3D07F8AAC33A",
-                                    "attributeName": "temperature",
-                                    "checked": "false",
-                                    "dataType": "DECIMAL",
-                                    "attributeLatestValue": "23.1",
-                                    "deviceUpdatedDate": "2025-05-30T04:23:25.963Z",
-                                    "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "23.1"
-                                },
-                                {
-                                    "attributeGuid": "F152807A-9E14-4FB3-AD4D-C9D86B70FB01",
-                                    "attributeName": "humidity",
-                                    "checked": "false",
-                                    "dataType": "DECIMAL",
-                                    "attributeLatestValue": "30.43",
-                                    "deviceUpdatedDate": "2025-05-30T04:23:25.963Z",
-                                    "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "30.43"
-                                },
-                                {
-                                    "attributeGuid": "C6F88750-0315-4F81-A21E-156355B5EDEF",
-                                    "attributeName": "accel.x",
-                                    "checked": "false",
-                                    "dataType": "DECIMAL",
-                                    "attributeLatestValue": "0.573",
-                                    "deviceUpdatedDate": "2025-05-30T04:23:25.963Z",
-                                    "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "0.573"
-                                },
-                                {
-                                    "attributeGuid": "CB4E5519-5E66-4280-B19A-F480C409F49C",
-                                    "attributeName": "accel.y",
-                                    "checked": "false",
-                                    "dataType": "DECIMAL",
-                                    "attributeLatestValue": "0.334",
-                                    "deviceUpdatedDate": "2025-05-30T04:23:25.963Z",
-                                    "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "0.334"
-                                },
-                                {
-                                    "attributeGuid": "F3FEAF17-EC2D-442C-BB7F-7790F6A4B126",
-                                    "attributeName": "accel.z",
-                                    "checked": "false",
-                                    "dataType": "DECIMAL",
-                                    "attributeLatestValue": "0.002",
-                                    "deviceUpdatedDate": "2025-05-30T04:23:25.963Z",
-                                    "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "0.002"
-                                },
-                                {
-                                    "attributeGuid": "D913828D-252C-41CC-A9F4-F1C951E7E6EF",
-                                    "attributeName": "sdk_version",
-                                    "checked": "false",
-                                    "dataType": "STRING",
-                                    "attributeLatestValue": "1.0.1",
-                                    "deviceUpdatedDate": "2025-05-30T04:23:25.940Z",
-                                    "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "1.0.1"
-                                },
-                                {
-                                    "attributeGuid": "CB955FC6-C00B-470F-96A1-17E0407E12C4",
-                                    "attributeName": "uptime",
-                                    "checked": "false",
-                                    "dataType": "STRING",
-                                    "attributeLatestValue": "1 day, 11 hours",
-                                    "deviceUpdatedDate": "2025-05-30T04:23:31.947Z",
-                                    "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "1 day, 11 hours"
-                                },
-                                {
-                                    "attributeGuid": "FC5B2FDD-002E-4744-8CE5-0E59A7481961",
-                                    "attributeName": "hostname",
-                                    "checked": "false",
-                                    "dataType": "STRING",
-                                    "attributeLatestValue": "stm32mp1-e1-a0-b3",
-                                    "deviceUpdatedDate": "2025-05-30T04:23:31.947Z",
-                                    "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "stm32mp1-e1-a0-b3"
-                                },
-                                {
-                                    "attributeGuid": "48705135-FF96-47D2-86E3-BF7A6E5C1B76",
-                                    "attributeName": "system_info.cpu_brand",
-                                    "checked": "false",
-                                    "dataType": "STRING",
-                                    "attributeLatestValue": "ARMv7 Processor rev 5 (v7l)",
-                                    "deviceUpdatedDate": "2025-05-30T04:23:31.947Z",
-                                    "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "ARMv7 Processor rev 5 (v7l)"
-                                },
-                                {
-                                    "attributeGuid": "244BFB09-6BC1-48F8-8817-E36A78544437",
-                                    "attributeName": "system_info.cpu_vendor",
-                                    "checked": "false",
-                                    "dataType": "STRING",
-                                    "attributeLatestValue": "ARM",
-                                    "deviceUpdatedDate": "2025-05-30T04:23:31.947Z",
-                                    "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "ARM"
-                                },
-                                {
-                                    "attributeGuid": "4E3544E4-9D6B-49B4-979D-A217FDA4962C",
-                                    "attributeName": "system_info.cpu_physical_cores",
-                                    "checked": "false",
-                                    "dataType": "DECIMAL",
-                                    "attributeLatestValue": "2",
-                                    "deviceUpdatedDate": "2025-05-30T04:23:31.947Z",
-                                    "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "2"
-                                },
-                                {
-                                    "attributeGuid": "352005D2-F4B8-42CA-B92C-206A2ADCAA41",
-                                    "attributeName": "system_info.architecture",
-                                    "checked": "false",
-                                    "dataType": "STRING",
-                                    "attributeLatestValue": "armv7l",
-                                    "deviceUpdatedDate": "2025-05-30T04:23:31.947Z",
-                                    "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "armv7l"
-                                },
-                                {
-                                    "attributeGuid": "230671D2-B173-47F3-AFE7-6D3C6673EF0F",
-                                    "attributeName": "system_info.system",
-                                    "checked": "false",
-                                    "dataType": "STRING",
-                                    "attributeLatestValue": "Linux",
-                                    "deviceUpdatedDate": "2025-05-30T04:23:31.947Z",
-                                    "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "Linux"
-                                },
-                                {
-                                    "attributeGuid": "F8367F02-2AC7-4785-A7BF-7BA3BA8FC007",
-                                    "attributeName": "system_info.release",
-                                    "checked": "false",
-                                    "dataType": "STRING",
-                                    "attributeLatestValue": "6.6.48",
-                                    "deviceUpdatedDate": "2025-05-30T04:23:31.947Z",
-                                    "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "6.6.48"
-                                },
-                                {
-                                    "attributeGuid": "9B2D2A48-5940-414F-9338-F025315E402A",
-                                    "attributeName": "system_info.platform",
-                                    "checked": "false",
-                                    "dataType": "STRING",
-                                    "attributeLatestValue": "Linux-6.6.48-armv7l-with-glibc2.39",
-                                    "deviceUpdatedDate": "2025-05-30T04:23:31.947Z",
-                                    "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "Linux-6.6.48-armv7l-with-glibc2.39"
-                                },
-                                {
-                                    "attributeGuid": "F2E6C23C-1152-4C0A-B20F-E718692EE4D8",
-                                    "attributeName": "cpu.usage_percent",
-                                    "checked": "false",
-                                    "dataType": "DECIMAL",
-                                    "attributeLatestValue": "5.1",
-                                    "deviceUpdatedDate": "2025-05-30T04:23:31.947Z",
-                                    "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "5.1"
-                                },
-                                {
-                                    "attributeGuid": "0B93F7E6-9AD3-437D-B4CA-B132371AD6C0",
-                                    "attributeName": "cpu.top_process_name",
-                                    "checked": "false",
-                                    "dataType": "STRING",
-                                    "attributeLatestValue": "python3",
-                                    "deviceUpdatedDate": "2025-05-30T04:23:31.947Z",
-                                    "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "python3"
-                                },
-                                {
-                                    "attributeGuid": "5F0FBA84-54D9-4255-BAD9-5ACF93EB6775",
-                                    "attributeName": "cpu.top_process_cmd",
-                                    "checked": "true",
-                                    "dataType": "STRING",
-                                    "attributeLatestValue": "python3 -u dhm-demo.py",
-                                    "deviceUpdatedDate": "2025-05-30T04:23:31.947Z",
-                                    "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "python3 -u dhm-demo.py"
-                                },
-                                {
-                                    "attributeGuid": "1BE1B6CB-95CA-4673-B7CA-276AD9CA4CD8",
-                                    "attributeName": "cpu.top_process_cpu_percent",
-                                    "checked": "false",
-                                    "dataType": "STRING",
-                                    "attributeLatestValue": "82.5",
-                                    "deviceUpdatedDate": "2025-05-30T04:23:31.947Z",
-                                    "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "82.5"
-                                },
-                                {
-                                    "attributeGuid": "A7F06ADD-1253-479A-85D5-03EDAED3D4A1",
-                                    "attributeName": "memory.total",
-                                    "checked": "false",
-                                    "dataType": "STRING",
-                                    "attributeLatestValue": "386.62MB",
-                                    "deviceUpdatedDate": "2025-05-30T04:23:31.947Z",
-                                    "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "386.62MB"
-                                },
-                                {
-                                    "attributeGuid": "7EF3CF1C-25EA-47A8-8EEF-AA4774F1C88F",
-                                    "attributeName": "memory.available",
-                                    "checked": "false",
-                                    "dataType": "STRING",
-                                    "attributeLatestValue": "150.57MB",
-                                    "deviceUpdatedDate": "2025-05-30T04:23:31.947Z",
-                                    "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "150.57MB"
-                                },
-                                {
-                                    "attributeGuid": "9051CD5E-CECB-4065-9370-A7331BBCE9A7",
-                                    "attributeName": "memory.used",
-                                    "checked": "false",
-                                    "dataType": "STRING",
-                                    "attributeLatestValue": "157.20MB",
-                                    "deviceUpdatedDate": "2025-05-30T04:23:31.947Z",
-                                    "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "157.20MB"
-                                },
-                                {
-                                    "attributeGuid": "3AA964D3-2A91-4BA7-9FCC-21A6344DCFEB",
-                                    "attributeName": "memory.percent",
-                                    "checked": "false",
-                                    "dataType": "DECIMAL",
-                                    "attributeLatestValue": "61.1",
-                                    "deviceUpdatedDate": "2025-05-30T04:23:31.947Z",
-                                    "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "61.1"
-                                },
-                                {
-                                    "attributeGuid": "D2A52C0C-CAE2-4B1C-8700-999D78F071D2",
-                                    "attributeName": "memory.top_process_name",
-                                    "checked": "false",
-                                    "dataType": "STRING",
-                                    "attributeLatestValue": "demo_launcher.p",
-                                    "deviceUpdatedDate": "2025-05-30T04:23:31.947Z",
-                                    "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "demo_launcher.p"
-                                },
-                                {
-                                    "attributeGuid": "76B0BD41-2191-4B3D-8391-13D0CC598F82",
-                                    "attributeName": "memory.top_process_cmd",
-                                    "checked": "false",
-                                    "dataType": "STRING",
-                                    "attributeLatestValue": "/usr/bin/python3 /usr/local/demo/demo_launcher.py",
-                                    "deviceUpdatedDate": "2025-05-30T04:23:31.947Z",
-                                    "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "/usr/bin/python3 /usr/local/demo/demo_launcher.py"
-                                },
-                                {
-                                    "attributeGuid": "5D97A5D3-64FB-4EBC-931D-C9CD391BDF91",
-                                    "attributeName": "memory.top_process_mem",
-                                    "checked": "false",
-                                    "dataType": "STRING",
-                                    "attributeLatestValue": "30.03MB",
-                                    "deviceUpdatedDate": "2025-05-30T04:23:31.947Z",
-                                    "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "30.03MB"
-                                },
-                                {
-                                    "attributeGuid": "D0B49203-F204-4B42-B32B-25886207B570",
-                                    "attributeName": "storage.total",
-                                    "checked": "false",
-                                    "dataType": "STRING",
-                                    "attributeLatestValue": "3.77GB",
-                                    "deviceUpdatedDate": "2025-05-30T04:23:31.947Z",
-                                    "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "3.77GB"
-                                },
-                                {
-                                    "attributeGuid": "D5439039-D53F-4FBE-BA02-526B41DC9664",
-                                    "attributeName": "storage.used",
-                                    "checked": "false",
-                                    "dataType": "STRING",
-                                    "attributeLatestValue": "898.78MB",
-                                    "deviceUpdatedDate": "2025-05-30T04:23:31.947Z",
-                                    "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "898.78MB"
-                                },
-                                {
-                                    "attributeGuid": "6F5BB7DA-7A75-49A8-9985-9FE04857EC49",
-                                    "attributeName": "storage.free",
-                                    "checked": "false",
-                                    "dataType": "STRING",
-                                    "attributeLatestValue": "2.72GB",
-                                    "deviceUpdatedDate": "2025-05-30T04:23:31.947Z",
-                                    "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "2.72GB"
-                                },
-                                {
-                                    "attributeGuid": "2A2FE999-368C-43EE-AEDE-7C62581DDF7F",
-                                    "attributeName": "storage.percent",
-                                    "checked": "false",
-                                    "dataType": "DECIMAL",
-                                    "attributeLatestValue": "24.4",
-                                    "deviceUpdatedDate": "2025-05-30T04:23:31.947Z",
-                                    "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "24.4"
-                                },
-                                {
-                                    "attributeGuid": "46216C91-7D72-478D-9668-9E9B1D1209C4",
-                                    "attributeName": "serial_data",
-                                    "checked": "false",
-                                    "dataType": "STRING",
-                                    "attributeLatestValue": "",
-                                    "deviceUpdatedDate": "1900-01-01T00:00:00.000Z",
-                                    "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "NA"
-                                }
-                            ]
-                        },
-                        "pieTime": "100",
-                        "key": "pie",
-                        "recentEndPoints": "10"
-                    }
-                }
-            },
-            "properties": {
-                "x": "15",
-                "y": "22",
-                "w": "12",
-                "h": "8",
-                "i": "pie",
-                "minW": "8",
-                "minH": "8",
-                "maxH": "12",
-                "maxW": "12",
                 "isStatic": "false"
             }
         },
@@ -3111,8 +2855,8 @@
                     },
                     "live": {
                         "device": {
-                            "deviceGuid": "40E3564A-CE15-43BF-B962-511C5ABD5F31",
-                            "deviceUniqueId": "mclSTM32MP1"
+                            "deviceGuid": "5C755B78-539A-4CD3-B711-C90DE5D1AB89",
+                            "deviceUniqueId": "RPi5demo99"
                         },
                         "attributes": {
                             "attribute": [
@@ -3128,7 +2872,7 @@
                                 },
                                 {
                                     "attributeGuid": "98AA9584-B610-460C-9D5C-04B498FE1AF8",
-                                    "attributeName": "mesage",
+                                    "attributeName": "message",
                                     "checked": "false",
                                     "dataType": "STRING",
                                     "attributeLatestValue": "",
@@ -3469,7 +3213,8 @@
                             ]
                         },
                         "rules": "",
-                        "key": "live"
+                        "key": "live",
+                        "attrType": "1"
                     }
                 }
             },
@@ -3506,8 +3251,8 @@
                     },
                     "live": {
                         "device": {
-                            "deviceGuid": "40E3564A-CE15-43BF-B962-511C5ABD5F31",
-                            "deviceUniqueId": "mclSTM32MP1"
+                            "deviceGuid": "5C755B78-539A-4CD3-B711-C90DE5D1AB89",
+                            "deviceUniqueId": "RPi5demo99"
                         },
                         "attributes": {
                             "attribute": [
@@ -3523,7 +3268,7 @@
                                 },
                                 {
                                     "attributeGuid": "98AA9584-B610-460C-9D5C-04B498FE1AF8",
-                                    "attributeName": "mesage",
+                                    "attributeName": "message",
                                     "checked": "false",
                                     "dataType": "STRING",
                                     "attributeLatestValue": "",
@@ -3864,7 +3609,8 @@
                             ]
                         },
                         "rules": "",
-                        "key": "live"
+                        "key": "live",
+                        "attrType": "1"
                     }
                 }
             },
@@ -3877,6 +3623,431 @@
                 "minW": "7",
                 "minH": "4",
                 "maxH": "4",
+                "isStatic": "false"
+            }
+        },
+        {
+            "widgetGuid": "54D7CC1A-AB35-499E-85D7-2BC3D17526B0",
+            "widgetProperties": {
+                "i": "pie",
+                "background": "#fff",
+                "fontColor": "#343434",
+                "fontFamily": "Proxima Nova",
+                "fontSize": "18",
+                "title": "CPU Processes",
+                "titleAlign": "",
+                "contents": {
+                    "pie": {
+                        "device": {
+                            "deviceGuid": "5C755B78-539A-4CD3-B711-C90DE5D1AB89",
+                            "deviceUniqueId": "RPi5demo99"
+                        },
+                        "attributes": {
+                            "attribute": [
+                                {
+                                    "attributeGuid": "5B188B27-6FEE-4D3F-8B3A-B121E5AFE016",
+                                    "attributeName": "version",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "STRING",
+                                    "attributeLatestValue": "",
+                                    "deviceUpdatedDate": "1900-01-01T00:00:00.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "NA"
+                                },
+                                {
+                                    "attributeGuid": "93B08AF3-37B3-44EA-B079-9BC4708233AC",
+                                    "attributeName": "message",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "STRING",
+                                    "attributeLatestValue": "",
+                                    "deviceUpdatedDate": "1900-01-01T00:00:00.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "NA"
+                                },
+                                {
+                                    "attributeGuid": "7D4A79CD-1F11-493E-AE24-BBD05A04DBE8",
+                                    "attributeName": "random",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "INTEGER",
+                                    "attributeLatestValue": "",
+                                    "deviceUpdatedDate": "1900-01-01T00:00:00.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "NA"
+                                },
+                                {
+                                    "attributeGuid": "2DBCEF20-D9E8-4D5C-B892-E05E1386D1A4",
+                                    "attributeName": "temperature",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "DECIMAL",
+                                    "attributeLatestValue": "",
+                                    "deviceUpdatedDate": "1900-01-01T00:00:00.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "NA"
+                                },
+                                {
+                                    "attributeGuid": "E14A2E66-917A-443D-98BF-BB9A05DD2190",
+                                    "attributeName": "humidity",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "DECIMAL",
+                                    "attributeLatestValue": "",
+                                    "deviceUpdatedDate": "1900-01-01T00:00:00.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "NA"
+                                },
+                                {
+                                    "attributeGuid": "B84A4A0B-FFCA-4D28-946D-E74F390CE9F3",
+                                    "attributeName": "accel.x",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "DECIMAL",
+                                    "attributeLatestValue": "",
+                                    "deviceUpdatedDate": "1900-01-01T00:00:00.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "NA"
+                                },
+                                {
+                                    "attributeGuid": "23BD3CD2-DE66-4E3A-B826-E5889830AD3C",
+                                    "attributeName": "accel.y",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "DECIMAL",
+                                    "attributeLatestValue": "",
+                                    "deviceUpdatedDate": "1900-01-01T00:00:00.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "NA"
+                                },
+                                {
+                                    "attributeGuid": "3F2EE57B-5837-4C2B-9E34-FD7115B25568",
+                                    "attributeName": "accel.z",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "DECIMAL",
+                                    "attributeLatestValue": "",
+                                    "deviceUpdatedDate": "1900-01-01T00:00:00.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "NA"
+                                },
+                                {
+                                    "attributeGuid": "AC0233E5-B7CC-4542-B1BA-2CDF35E6ACA8",
+                                    "attributeName": "sdk_version",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "STRING",
+                                    "attributeLatestValue": "",
+                                    "deviceUpdatedDate": "1900-01-01T00:00:00.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "NA"
+                                },
+                                {
+                                    "attributeGuid": "BAF12EFB-8550-4AC3-A5F9-5707C2031BA1",
+                                    "attributeName": "uptime",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "STRING",
+                                    "attributeLatestValue": "35 minutes, 43 seconds",
+                                    "deviceUpdatedDate": "2026-07-22T22:58:27.283Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "35 minutes, 43 seconds"
+                                },
+                                {
+                                    "attributeGuid": "6BF772A4-2BD1-4EDE-8596-676402FAAD0E",
+                                    "attributeName": "hostname",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "STRING",
+                                    "attributeLatestValue": "ubuntu",
+                                    "deviceUpdatedDate": "2026-07-22T22:58:27.283Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "ubuntu"
+                                },
+                                {
+                                    "attributeGuid": "43C1C2DF-661C-4476-B6FC-3EBD6AB7A299",
+                                    "attributeName": "system_info.cpu_brand",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "STRING",
+                                    "attributeLatestValue": "Cortex-A76",
+                                    "deviceUpdatedDate": "2026-07-22T22:58:27.283Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "Cortex-A76"
+                                },
+                                {
+                                    "attributeGuid": "D78BB8AD-0DF9-41E9-AC75-B9B04B0256F8",
+                                    "attributeName": "system_info.cpu_vendor",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "STRING",
+                                    "attributeLatestValue": "ARM",
+                                    "deviceUpdatedDate": "2026-07-22T22:58:27.283Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "ARM"
+                                },
+                                {
+                                    "attributeGuid": "16BAE24A-F9B1-4267-9A72-9437B502C14F",
+                                    "attributeName": "system_info.cpu_mhz",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "DECIMAL",
+                                    "attributeLatestValue": "2400",
+                                    "deviceUpdatedDate": "2026-07-22T22:58:27.283Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "2400"
+                                },
+                                {
+                                    "attributeGuid": "DAF6A64A-87C4-427B-9572-52D63736BB6C",
+                                    "attributeName": "system_info.cpu_physical_cores",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "INTEGER",
+                                    "attributeLatestValue": "4",
+                                    "deviceUpdatedDate": "2026-07-22T22:58:27.283Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "4"
+                                },
+                                {
+                                    "attributeGuid": "D00943C8-7158-41A5-840D-8C0686F45439",
+                                    "attributeName": "system_info.architecture",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "STRING",
+                                    "attributeLatestValue": "aarch64",
+                                    "deviceUpdatedDate": "2026-07-22T22:58:27.283Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "aarch64"
+                                },
+                                {
+                                    "attributeGuid": "24BC51BD-2551-4CDC-AED9-29BB5FC91916",
+                                    "attributeName": "system_info.system",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "STRING",
+                                    "attributeLatestValue": "Linux",
+                                    "deviceUpdatedDate": "2026-07-22T22:58:27.283Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "Linux"
+                                },
+                                {
+                                    "attributeGuid": "5D071FB2-1755-475A-83EE-6C3C26E18567",
+                                    "attributeName": "system_info.release",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "STRING",
+                                    "attributeLatestValue": "6.8.0-1047-raspi",
+                                    "deviceUpdatedDate": "2026-07-22T22:58:27.283Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "6.8.0-1047-raspi"
+                                },
+                                {
+                                    "attributeGuid": "BDC93AAC-71F5-43C4-93ED-34155DF04F8A",
+                                    "attributeName": "system_info.platform",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "STRING",
+                                    "attributeLatestValue": "Linux-6.8.0-1047-raspi-aarch64-with-glibc2.39",
+                                    "deviceUpdatedDate": "2026-07-22T22:58:27.283Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "Linux-6.8.0-1047-raspi-aarch64-with-glibc2.39"
+                                },
+                                {
+                                    "attributeGuid": "8603068E-4E79-4A75-8EC8-F20DFC97AC4E",
+                                    "attributeName": "cpu.usage_percent",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "DECIMAL",
+                                    "attributeLatestValue": "0",
+                                    "deviceUpdatedDate": "2026-07-22T22:58:27.283Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "0"
+                                },
+                                {
+                                    "attributeGuid": "2A81DB38-14F8-4146-95AD-669B897CB05F",
+                                    "attributeName": "cpu.top_process_name",
+                                    "displayName": "",
+                                    "checked": "true",
+                                    "dataType": "STRING",
+                                    "attributeLatestValue": "python3",
+                                    "deviceUpdatedDate": "2026-07-22T22:58:27.283Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "python3"
+                                },
+                                {
+                                    "attributeGuid": "9062D327-1B12-42BC-9EA2-87EDC2EC3731",
+                                    "attributeName": "cpu.top_process_cmd",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "STRING",
+                                    "attributeLatestValue": "python3 -u dhm-demo.py",
+                                    "deviceUpdatedDate": "2026-07-22T22:58:27.283Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "python3 -u dhm-demo.py"
+                                },
+                                {
+                                    "attributeGuid": "37E4469E-70D7-4B01-B6D1-6F946783D91F",
+                                    "attributeName": "cpu.top_process_cpu_percent",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "DECIMAL",
+                                    "attributeLatestValue": "15.6",
+                                    "deviceUpdatedDate": "2026-07-22T22:58:27.283Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "15.6"
+                                },
+                                {
+                                    "attributeGuid": "2A1930D1-2A48-4999-B2DF-F50F2E840B2C",
+                                    "attributeName": "memory.total",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "STRING",
+                                    "attributeLatestValue": "7.75GB",
+                                    "deviceUpdatedDate": "2026-07-22T22:58:27.283Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "7.75GB"
+                                },
+                                {
+                                    "attributeGuid": "468A9260-4FF6-4F7A-8E8E-57F778B22BFC",
+                                    "attributeName": "memory.available",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "STRING",
+                                    "attributeLatestValue": "7.37GB",
+                                    "deviceUpdatedDate": "2026-07-22T22:58:27.283Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "7.37GB"
+                                },
+                                {
+                                    "attributeGuid": "E47067C9-FFEA-4711-A250-007E04147081",
+                                    "attributeName": "memory.used",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "STRING",
+                                    "attributeLatestValue": "229.78MB",
+                                    "deviceUpdatedDate": "2026-07-22T22:58:27.283Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "229.78MB"
+                                },
+                                {
+                                    "attributeGuid": "53D7EA67-C29F-4922-BB42-417AD89E4850",
+                                    "attributeName": "memory.percent",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "DECIMAL",
+                                    "attributeLatestValue": "5",
+                                    "deviceUpdatedDate": "2026-07-22T22:58:27.283Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "5"
+                                },
+                                {
+                                    "attributeGuid": "E204BDB7-23E2-4DAC-85B7-45798F7E62CE",
+                                    "attributeName": "memory.top_process_name",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "STRING",
+                                    "attributeLatestValue": "fwupd",
+                                    "deviceUpdatedDate": "2026-07-22T22:58:27.283Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "fwupd"
+                                },
+                                {
+                                    "attributeGuid": "631799AE-77E2-4F59-9D48-6E8C359F61A4",
+                                    "attributeName": "memory.top_process_cmd",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "STRING",
+                                    "attributeLatestValue": "/usr/libexec/fwupd/fwupd",
+                                    "deviceUpdatedDate": "2026-07-22T22:58:27.283Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "/usr/libexec/fwupd/fwupd"
+                                },
+                                {
+                                    "attributeGuid": "FCDA41E3-40E4-41E2-84F5-F5D5FF9C9F00",
+                                    "attributeName": "memory.top_process_mem",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "STRING",
+                                    "attributeLatestValue": "42.54MB",
+                                    "deviceUpdatedDate": "2026-07-22T22:58:27.283Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "42.54MB"
+                                },
+                                {
+                                    "attributeGuid": "F49E3102-6334-470A-B870-0C78E7ECC5A9",
+                                    "attributeName": "storage.total",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "STRING",
+                                    "attributeLatestValue": "13.76GB",
+                                    "deviceUpdatedDate": "2026-07-22T22:58:27.283Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "13.76GB"
+                                },
+                                {
+                                    "attributeGuid": "9878EDFA-605F-43A5-8F8C-83637A8B8D40",
+                                    "attributeName": "storage.used",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "STRING",
+                                    "attributeLatestValue": "2.23GB",
+                                    "deviceUpdatedDate": "2026-07-22T22:58:27.283Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "2.23GB"
+                                },
+                                {
+                                    "attributeGuid": "C921DCA1-1AC1-4E97-95A2-FC6CDFD3AEB2",
+                                    "attributeName": "storage.free",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "STRING",
+                                    "attributeLatestValue": "10.92GB",
+                                    "deviceUpdatedDate": "2026-07-22T22:58:27.283Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "10.92GB"
+                                },
+                                {
+                                    "attributeGuid": "16D04980-2618-49E4-8EC9-EC2508E9A0A3",
+                                    "attributeName": "storage.percent",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "DECIMAL",
+                                    "attributeLatestValue": "17",
+                                    "deviceUpdatedDate": "2026-07-22T22:58:27.283Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "17"
+                                },
+                                {
+                                    "attributeGuid": "5628AE49-AE92-4B8A-AF5B-761CCA588A68",
+                                    "attributeName": "serial_data",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "STRING",
+                                    "attributeLatestValue": "",
+                                    "deviceUpdatedDate": "1900-01-01T00:00:00.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "NA"
+                                }
+                            ]
+                        },
+                        "pieTime": "50",
+                        "attrType": "1",
+                        "key": "pie",
+                        "recentEndPoints": "10"
+                    }
+                }
+            },
+            "properties": {
+                "x": "15",
+                "y": "30",
+                "w": "12",
+                "h": "8",
+                "i": "pie",
+                "minW": "8",
+                "minH": "8",
+                "maxH": "12",
+                "maxW": "12",
                 "isStatic": "false"
             }
         }
